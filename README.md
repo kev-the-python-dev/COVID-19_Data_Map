@@ -4,21 +4,21 @@ Objectives:
 Display current Covid-19 cases, deaths, vaccinations completed.
 
 The Big Steps:
-1. Download data from csse-covid-19 github repository.
-    i. use 'raw' github link 
-2. Access csv data from csse-covid-19
-    i.  csv module required
-3. Transform/parse csv data into JSON (for easier reading via front-end)
-    i. json module required
-    ii. create custom function to convert csv to json
-    iii. remove keys (columns) that are irrelevant to final data output 
-4. Store data into database
-    i. By storing data, we don't need to parse it everytime.
-    ii. json dump to convert json object into a json string that can be inserted in a text field in mysql.
-    iii. Using Django, export JSON data to MySQL database.
-5. Populate the stored data onto map (example use GeoJSON)
-    i. geojson module required
-    i. Take input from database, prepare the coords into GeoJSON format --> front-end framework can call this end-point while doing map implementation. 
+1. Download data from csse-covid-19 github repository.<br>
+    i. use 'raw' github link<br> 
+2. Access csv data from csse-covid-19<br>
+    i.  csv module required<br>
+3. Transform/parse csv data into JSON (for easier reading via front-end)<br>
+    i. json module required<br>
+    ii. create custom function to convert csv to json<br>
+    iii. remove keys (columns) that are irrelevant to final data output<br> 
+4. Store data into database<br>
+    i. By storing data, we don't need to parse it everytime.<br>
+    ii. json dump to convert json object into a json string that can be inserted in a text field in mysql.<br>
+    iii. Using Django, export JSON data to MySQL database.<br>
+5. Populate the stored data onto map (example use GeoJSON)<br>
+    i. geojson module required<br>
+    i. Take input from database, prepare the coords into GeoJSON format --> front-end framework can call this end-point while doing map implementation. <br>
 
 ---- Time for Front-end ----
 1. React.js and redux
