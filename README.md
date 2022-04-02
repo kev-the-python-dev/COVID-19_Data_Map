@@ -1,9 +1,9 @@
-#COVID-19 Stats Tracker
+<h1>COVID-19 Stats Tracker</h1>
 
-Objectives:
-Display current Covid-19 cases, deaths, vaccinations completed.
+<h2>Objectives:</h2>
+*Display current Covid-19 cases, deaths, vaccinations completed.*
 
-The Big Steps:
+<h2>The Big Steps:</h2>
 1. **Download data from csse-covid-19 github repository.**<br>
     i. use 'raw' github link<br> 
 2. **Access csv data from csse-covid-19**<br>
@@ -26,5 +26,5 @@ The Big Steps:
 
 
 Notes:
-1. JHU CSSE updates data daily (23:59) UTC time. This will need to be synced to apps backend (aka update tables daily)
-2. All data will be served via interactive map
+1. *JHU CSSE updates data daily (23:59) UTC time. This will need to be synced to apps backend (aka update tables daily)*
+2. *All data will be served via interactive map*
