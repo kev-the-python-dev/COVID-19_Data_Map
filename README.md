@@ -8,16 +8,16 @@
     i. use 'raw' github link<br></br>
 2. **Access csv data from csse-covid-19**<br></br>
     i.  csv module required<br></br>
-3. **Transform/parse csv data into JSON (for easier reading via front-end)**<br>
+3. **Transform/parse csv data into JSON (for easier reading via front-end)**<br></br>
     i. json module required<br></br>
     ii. create custom function to convert csv to json<br></br>
     iii. remove keys (columns) that are irrelevant to final data output<br></br>
-4. **Store data into database**<br>
+4. **Store data into database**<br></br>
     i. By storing data, we don't need to parse it everytime.<br></br>
     ii. json dump to convert json object into a json string that can be inserted in a text field in mysql.<br></br>
     iii. Using Django, export JSON data to MySQL database.<br></br>
-5. **Populate the stored data onto map (example use GeoJSON)**<br>
-    i. geojson module required<br>
+	5. **Populate the stored data onto map (example use GeoJSON)**<br></br>
+    i. geojson module required<br></br>
     ii. Take input from database, prepare the coords into GeoJSON format --> front-end framework can call this end-point while doing map implementation.<br></br>
 
 ---- Time for Front-end ----
