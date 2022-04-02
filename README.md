@@ -1,4 +1,4 @@
-<h1>COVID-19 Stats Tracker</h1>
+<pre><h1>COVID-19 Stats Tracker</h1>
 
 <h2>Objectives:</h2>
 *Display current Covid-19 cases, deaths, vaccinations completed.*
@@ -28,3 +28,4 @@
 Notes:
 1. *JHU CSSE updates data daily (23:59) UTC time. This will need to be synced to apps backend (aka update tables daily)*
 2. *All data will be served via interactive map*
+</pre>
