@@ -5,7 +5,7 @@ Display current Covid-19 cases, deaths, vaccinations completed.
 
 The Big Steps:
 1. Download data from csse-covid-19 github repository.
-    i. use 'raw' github link
+    i. use 'raw' github link 
 2. Access csv data from csse-covid-19
     i.  csv module required
 3. Transform/parse csv data into JSON (for easier reading via front-end)
