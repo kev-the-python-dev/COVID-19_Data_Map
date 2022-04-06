@@ -5,9 +5,9 @@
 
 <h2>The Big Steps:</h2>
 1. <strong>DONE</strong> - Download data from csse-covid-19 github repository.<br></br>
-2. <strong>Done</strong>Access csv data from csse-covid-19<br></br>
-3.<strong>Done</strong>Transform/parse csv data into JSON (for easier reading via front-end)<br></br>
-4. <strong>Done</strong>Store data into database<br></br>
+2. <strong>Done</strong> - Access csv data from csse-covid-19<br></br>
+3.<strong>Done</strong> - Transform/parse csv data into JSON (for easier reading via front-end)<br></br>
+4. <strong>Done</strong> - Store data into database<br></br>
 To Do: <br><br>
 5. <strong>Populate the stored data onto map (example use GeoJSON)</strong><br></br>
     i. geojson module required<br></br>
