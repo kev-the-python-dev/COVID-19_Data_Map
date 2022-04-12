@@ -1,19 +1,40 @@
 import requests
 from os import getcwd
 import subprocess
-import datetime 
+import datetime
 import csv, json
-url = "https://raw.githubusercontent.com/kevin-douglas/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports_us/03-29-2022.csv"
+
+# Download file (Current goal - check if file has been updated to today or not)
+
+today = datetime.date.today()
+day_format = "%m-%d-%Y"
+today_formatted = today.strftime(day_format)
+ 
+url = "https://raw.githubusercontent.com/kevin-douglas/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports_us/" + today_formatted
 
 directory = getcwd()
-
 filename = directory + '/cov-data.csv'
+
 r = requests.get(url)
+try:
+    r.raise_for_status()
+except requests.exceptions.HTTPError as e:
+    day_delta = datetime.timedelta(days=1)
+    start_date = datetime.date.today()
+    end_date = start_date - 30*day_delta
+    for i in range((start_date - end_date).days):
+        new_date = start_date - i*day_delta
+        new_date = new_date.strftime(day_format)
+        url_2 = "https://raw.githubusercontent.com/kevin-douglas/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports_us/" + new_date + '.csv'
+        r = requests.get(url_2)
+        if r.status_code == 200:
+            print(f'{url_2} is valid')
+            break
 
 with open(filename, 'wb') as f:
     f.write(r.content)    
-    #COMMAND = '''awk -F, -v OFS=, 'NR==1 && $5=="Long_" {$5="Long"};1' cov-data.csv'''
-    #subprocess.call(COMMAND, shell=True)
+    COMMAND = '''awk -F, -v OFS=, 'NR==1 && $5=="Long_" {$5="Long"};1' cov-data.csv'''
+    subprocess.call(COMMAND, shell=True)
 # Parsing the data
 def csvToJson(csvFilePath, jsonFilePath):
     cov_data = []
@@ -45,6 +66,5 @@ def csvToJson(csvFilePath, jsonFilePath):
 json_file_path = directory + '/cov_data.json'
 
 csvToJson(filename,json_file_path)
-
 
 
