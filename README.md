@@ -9,9 +9,7 @@
 3. <strong>Done</strong> - Transform/parse csv data into JSON (for easier reading via front-end)<br></br>
 4. <strong>Done</strong> - Store data into database<br></br>
 To Do: <br><br>
-5. <strong>Populate the stored data onto map (example use GeoJSON)</strong><br></br>
-    i. geojson module required<br></br>
-    ii. Take input from database, prepare the coords into GeoJSON format --> front-end framework can call this end-point while doing map implementation.<br></br>
+5. <strong>In Progress</strong>Populate the stored data onto map<br></br>
 
 ---- Time for Front-end ----
 1. <strong>React.js and redux</strong>
