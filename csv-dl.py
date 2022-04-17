@@ -58,7 +58,10 @@ def csvToJson(csvFilePath, jsonFilePath):
         csvReader = csv.DictReader(csv_to_json)
         
         for rows in csvReader:
-            cov_data.append(rows)
+            if 'Princess' in rows['Province_State']:
+                pass
+            else:
+                cov_data.append(rows)
     
     with open(jsonFilePath, 'w', encoding='utf-8') as json_file:
         json_file.write(json.dumps(cov_data, indent=4))
