@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Markers Map</title>
+	
+	        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"/>
+	        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	        <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"/></script>
+</head>
+
+<body>
+	<div id="mapid" style='height: 500px;'></div>
+	<script>
+		let mymap= L.map('mapid').setView([51.505, -0.09], 13);
+		L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+				attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+				maxZoom: 10,
+				id: 'mapbox/streets-v11',
+				tileSize: 512,
+				zoomOffset: -1,
+				accessToken: 'pk.eyJ1Ijoia2luZ2NvYnJhcHkiLCJhIjoiY2wxbjJxaHFwMHFtdjNvczl4cGFrOG5wZyJ9.5_vEZGOelHpCAdPEICYe0Q'
+				}).addTo(mymap);
+				
+		$.getJSON("https://raw.githubusercontent.com/kevin-douglas/covid19project-backend/main/geocovdata.json", function(response) {
+            console.log("response", response);
+            var geojsonLayer = new L.GeoJSON(response);
+            geojsonLayer.addTo(mymap);    
+        });
+
+	</script>
+</body>
+</html>
