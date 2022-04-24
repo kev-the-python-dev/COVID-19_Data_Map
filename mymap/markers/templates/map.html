@@ -1,4 +1,5 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,22 +13,38 @@
 <body>
 	<div id="mapid" style='height: 500px;'></div>
 	<script>
-		let mymap= L.map('mapid').setView([51.505, -0.09], 13);
+		let mymap= L.map('mapid').setView([39.828175, -98.5795], 4);
+		let max_bounds = [
+					[5.499550, -167.27643], // Southwest Boundary
+					[83.162102, -52.233040] // Northeast Boundary
+				];
 		L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 				attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 				maxZoom: 10,
-				id: 'mapbox/streets-v11',
+				id: 'mapbox/dark-v10',
 				tileSize: 512,
 				zoomOffset: -1,
 				accessToken: 'pk.eyJ1Ijoia2luZ2NvYnJhcHkiLCJhIjoiY2wxbjJxaHFwMHFtdjNvczl4cGFrOG5wZyJ9.5_vEZGOelHpCAdPEICYe0Q'
 				}).addTo(mymap);
 				
-		$.getJSON("https://raw.githubusercontent.com/kevin-douglas/covid19project-backend/main/geocovdata.json", function(response) {
+		let geo_cov = $.getJSON('../../static/geocovdata.json', function(response) {
             console.log("response", response);
-            var geojsonLayer = new L.GeoJSON(response);
+            var geojsonLayer = new L.GeoJSON(response, {
+            	onEachFeature: onEachFeat });
             geojsonLayer.addTo(mymap);    
         });
-
+       
+	// Necessary for clicking on markers. Without this code, markers mean absolutely nothing. 
+	function onEachFeat(feature, layer){
+        	var out = [];
+		if (feature.properties) {
+			for(key in feature.properties){
+				out.push(key+": "+feature.properties[key]);
+			}
+			layer.bindPopup(out.join("<br />"));
+		}
+    	}
+	
 	</script>
 </body>
 </html>

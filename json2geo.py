@@ -1,25 +1,30 @@
 from sys import argv
 from os.path import exists
-#import simplejson as json
 import json
 
-script, in_file, out_file = argv
 
-data = json.load(open(in_file, "r", encoding="utf-8"))
+def conv_to_geo():
+    in_file= './cov_data.json'
+    out_file = './geocovdata.json'
 
-geojson = {
-        "type": "FeatureCollection",
-        "features": [
-            {
-                "type":"Feature",
-                "geometry" : {
-                    "type": "Point",
-                    "coordinates" : [d["Long"],d["Lat"]],
-                    },
-                "properties" : d,
-                } for d in  data]
-            }
+    data = json.load(open(in_file, "r", encoding="utf-8"))
 
-output = open(out_file, 'w', encoding="utf-8")
-json.dump(geojson, output, indent=4)
-output.close()
+    geojson = {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type":"Feature",
+                    "geometry" : {
+                        "type": "Point",
+                        "coordinates" : [d["Long"],d["Lat"]],
+                        },
+                    "properties" : d,
+                    } for d in  data]
+                }
+
+    output = open(out_file, 'w', encoding="utf-8")
+    json.dump(geojson, output, indent=4)
+    output.close()
+
+if __name__ == '__main__':
+    conv_to_geo()
