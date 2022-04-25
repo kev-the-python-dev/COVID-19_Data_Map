@@ -92,14 +92,11 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
+* [Python](https://python.org/)
+* [Django](https://www.djangoproject.com/)
 * [JQuery](https://jquery.com)
+* [Leaflet](https://leafletjs.com/)
+* [MapBox](https://www.mapbox.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -114,25 +111,22 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* pip
   ```sh
-  npm install npm@latest -g
+  pip install -r requirements.txt
   ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get a free API Key at [https://mapbox.com](https://mapbox.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/kevin-douglas/covid19project-backend.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
+3. Enter your MapBox API in `temaples/map.html`
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+   accessToken: '<insert API key here>'
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
