@@ -140,10 +140,10 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Edit /template/map.html and add your mapbox API key.
+1. Edit _/template/map.html_ and add your mapbox API key.
 2. Run the csv-dl.py
 3. Initialize your Django web server
-4. Visit 127.0.0.1:8000/markers/map and enjoy the data!
+4. Visit _127.0.0.1:8000/markers/map_ and enjoy the data!
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
