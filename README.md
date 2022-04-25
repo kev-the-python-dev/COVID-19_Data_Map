@@ -172,11 +172,6 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## <!-- CONTACT -->
-Contact
-
-Kevin - [@twitter_handle](https://twitter.com/)
-
 ## Project Link: [https://github.com/kevin-douglas/covid19project-backend/](https://github.com/kevin-douglas/covid19project-backend/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
