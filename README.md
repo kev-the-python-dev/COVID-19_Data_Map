@@ -127,7 +127,7 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/kevin-douglas/covid19project-backend.git
    ```
-3. Enter your MapBox API in `temaples/map.html`
+3. Enter your MapBox API in `templates/map.html`
    ```js
    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
    accessToken: '<insert API key here>'
