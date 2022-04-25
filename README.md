@@ -98,7 +98,9 @@
 * [PROJ](https://proj.org/)
 * [GEOS](https://trac.osgeo.org/geos/)
 * [GDAL](https://gdal.org/)
-I personally used Fedora 35 as my distro and thus some of the required libraries _required_ a different process to get GeoDjango, Lib
+<br>
+
+Personally, I used Fedora 35 as my distro and thus some of the required libraries _required_ a different process to get GeoDjango, Spatialite, PROJ, GEOS, and GDAL implemented correctly. I'll drop the sources here once compiled in an organized fashion. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
