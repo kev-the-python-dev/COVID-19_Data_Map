@@ -38,7 +38,7 @@
   <p align="center">
     An interactive map made with primarily made with Django, Python, & Javascript that uses data from https://github.com/CSSEGISandData/COVID-19 to display the most recent reported data regarding COVID-19 infections. 
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/kevin-douglas/covid19project-backend"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/kevin-douglas/covid19project-backend">View Demo</a>
