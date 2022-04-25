@@ -18,7 +18,7 @@ dbus-python==1.2.18
 defusedxml==0.7.1
 diff-match-patch==20200713
 distro==1.6.0
-Django==4.0.3
+Django==4.0.4
 django-import-export==2.8.0
 et-xmlfile==1.1.0
 fedora-third-party==0.8
@@ -41,7 +41,7 @@ packaging==21.3
 Paste==3.5.0
 pexpect==4.8.0
 pid==2.2.3
-Pillow==8.3.2
+Pillow==9.1.0
 ply==3.11
 productmd==1.33
 psutil==5.8.0
