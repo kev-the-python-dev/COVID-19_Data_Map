@@ -199,4 +199,4 @@ Don't forget to give the project a star! Thanks again!
 [license-url]: https://github.com/kevin-douglas/covid19project-backend/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/screenshot.png 
