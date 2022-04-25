@@ -93,6 +93,12 @@
 * [JQuery](https://jquery.com)
 * [Leaflet](https://leafletjs.com/)
 * [MapBox](https://www.mapbox.com/)
+* [SQLite3](https://sqlite.org/index.html)
+* [SpatialLite](https://www.gaia-gis.it/fossil/libspatialite/index)
+* [PROJ](https://proj.org/)
+* [GEOS](https://trac.osgeo.org/geos/)
+* [GDAL](https://gdal.org/)
+I personally used Fedora 35 as my distro and thus some of the required libraries _required_ a different process to get GeoDjango, Lib
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
