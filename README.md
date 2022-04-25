@@ -150,7 +150,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/kevin-douglas/covid19project-backend/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -177,22 +177,22 @@ Don't forget to give the project a star! Thanks again!
 
 ## Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-## Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+## Project Link: [https://github.com/kevin-douglas/covid19project-backend/](https://github.com/kevin-douglas/covid19project-backend/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/kevin-douglas/covid19project-backend.svg?style=for-the-badge
 [contributors-url]: https://github.com/kevin-douglas/covid19project-backend/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[forks-shield]: https://img.shields.io/github/forks/kevin-douglas/covid19project-backend.svg?style=for-the-badge
+[forks-url]: https://github.com/kevin-douglas/covid19project-backend/network/members
+[stars-shield]: https://img.shields.io/github/stars/kevin-douglas/covid19project-backend?style=for-the-badge
+[stars-url]: https://github.com/kevin-douglas/covid19project-backend/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kevin-douglas/covid19project-backend.svg?style=for-the-badge
+[issues-url]: https://github.com/kevin-douglas/covid19project-backend/issues
+[license-shield]: https://img.shields.io/github/license/kevin-douglas/covid19project-backend.svg?style=for-the-badge
+[license-url]: https://github.com/kevin-douglas/covid19project-backend/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/
 [product-screenshot]: images/screenshot.png
