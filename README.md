@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/kevin-douglas/covid19project-backend">
-    <img src="https://i.imgur.com/erOoYPp.png" alt="Logo" width="80" height="80">
+    <img src="https://i.imgur.com/erOoYPp.png" alt="Logo" height="80">
   </a>
 
 <h3 align="center">COVID-19 Interactive Data Map (U.S.)</h3>
