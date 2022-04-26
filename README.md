@@ -29,7 +29,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/kevin-douglas/covid19project-backend">
+  <a href="https://github.com/kev-the-python-dev/covid19project-backend">
     <img src="https://i.imgur.com/erOoYPp.png" alt="Logo" height="80">
   </a>
 
@@ -38,14 +38,14 @@
   <p align="center">
     Deploy your own interactive map made with primarily made with Django, Python, & Javascript that uses data from https://github.com/CSSEGISandData/COVID-19 (Johns Hopkins University) to display the most recent reported state-wide data regarding COVID-19 in the U.S. 
     <br />
-    <a href="https://github.com/kevin-douglas/covid19project-backend"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/kev-the-python-dev/covid19project-backend"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://kingcobrapy.pythonanywhere.com/markers/map">View Demo</a>
     ·
-    <a href="https://github.com/kevin-douglas/covid19project-backend/issues">Report Bug</a>
+    <a href="https://github.com/kev-the-python-dev/covid19project-backend/issues">Report Bug</a>
     ·
-    <a href="https://github.com/kevin-douglas/covid19project-backend/issues">Request Feature</a>
+    <a href="https://github.com/kev-the-python-dev/covid19project-backend/issues">Request Feature</a>
   </p>
 </div>
 
@@ -80,7 +80,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src='https://raw.githubusercontent.com/kevin-douglas/covid19project-backend/main/map_marker_data_view.png'>
+<img src='https://raw.githubusercontent.com/kev-the-python-dev/covid19project-backend/main/map_marker_data_view.png'>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -125,14 +125,14 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://mapbox.com](https://mapbox.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/kevin-douglas/covid19project-backend.git
+   git clone https://github.com/kev-the-python-dev/covid19project-backend.git
    ```
-3. Enter your MapBox API in `templates/map.html`
+3. Enter your MapBox API in `COVID-19_Data_Map/mymap/templates/map.html`
    ```js
    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
    accessToken: '<insert API key here>'
    ```
-4. Initiate your Django Web Server
+4. Initiate your Django Web Server in `COVID-19_Data_Map/`
    ```bash
    python migrate.py runserver
    ```
@@ -163,7 +163,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/kevin-douglas/covid19project-backend/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/kev-the-python-dev/covid19project-backend/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -185,22 +185,22 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Project Link: [https://github.com/kevin-douglas/covid19project-backend/](https://github.com/kevin-douglas/covid19project-backend/)
+## Project Link: [https://github.com/kev-the-python-dev/covid19project-backend/](https://github.com/kev-the-python-dev/covid19project-backend/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/kevin-douglas/covid19project-backend.svg?style=for-the-badge
-[contributors-url]: https://github.com/kevin-douglas/covid19project-backend/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/kevin-douglas/covid19project-backend.svg?style=for-the-badge
-[forks-url]: https://github.com/kevin-douglas/covid19project-backend/network/members
-[stars-shield]: https://img.shields.io/github/stars/kevin-douglas/covid19project-backend?style=for-the-badge
-[stars-url]: https://github.com/kevin-douglas/covid19project-backend/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kevin-douglas/covid19project-backend.svg?style=for-the-badge
-[issues-url]: https://github.com/kevin-douglas/covid19project-backend/issues
-[license-shield]: https://img.shields.io/github/license/kevin-douglas/covid19project-backend.svg?style=for-the-badge
-[license-url]: https://github.com/kevin-douglas/covid19project-backend/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/kev-the-python-dev/covid19project-backend.svg?style=for-the-badge
+[contributors-url]: https://github.com/kev-the-python-dev/covid19project-backend/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kev-the-python-dev/covid19project-backend.svg?style=for-the-badge
+[forks-url]: https://github.com/kev-the-python-dev/covid19project-backend/network/members
+[stars-shield]: https://img.shields.io/github/stars/kev-the-python-dev/covid19project-backend?style=for-the-badge
+[stars-url]: https://github.com/kev-the-python-dev/covid19project-backend/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kev-the-python-dev/covid19project-backend.svg?style=for-the-badge
+[issues-url]: https://github.com/kev-the-python-dev/covid19project-backend/issues
+[license-shield]: https://img.shields.io/github/license/kev-the-python-dev/covid19project-backend.svg?style=for-the-badge
+[license-url]: https://github.com/kev-the-python-dev/covid19project-backend/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/
 [product-screenshot]: images/screenshot.png 
