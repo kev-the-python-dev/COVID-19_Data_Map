@@ -41,7 +41,7 @@
     <a href="https://github.com/kevin-douglas/covid19project-backend"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/kevin-douglas/covid19project-backend/blob/main/mymap/static/geocovdata.json">View Demo</a>
+    <a href="http://kingcobrapy.pythonanywhere.com/markers/map">View Demo</a>
     ·
     <a href="https://github.com/kevin-douglas/covid19project-backend/issues">Report Bug</a>
     ·
