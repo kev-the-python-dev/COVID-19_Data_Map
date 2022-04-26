@@ -36,7 +36,7 @@
 <h3 align="center">COVID-19 Interactive Data Map (U.S.)</h3>
 
   <p align="center">
-    Deploy your own interactive map made with primarily made with Django, Python, & Javascript that uses data from https://github.com/CSSEGISandData/COVID-19 to display the most recent reported state-wide data regarding COVID-19 in the U.S. 
+    Deploy your own interactive map made with primarily made with Django, Python, & Javascript that uses data from https://github.com/CSSEGISandData/COVID-19 (Johns Hopkins University) to display the most recent reported state-wide data regarding COVID-19 in the U.S. 
     <br />
     <a href="https://github.com/kevin-douglas/covid19project-backend"><strong>Explore the docs »</strong></a>
     <br />
