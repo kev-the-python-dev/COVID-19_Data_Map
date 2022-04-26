@@ -132,6 +132,10 @@ This is an example of how to list things you need to use the software and how to
    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
    accessToken: '<insert API key here>'
    ```
+4. Initiate your Django Web Server
+   ```bash
+   python migrate.py runserver
+   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
