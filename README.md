@@ -132,6 +132,8 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
+Once you have installed the required GeoSpatial libraries to your system/server you can then use the 4 steps below to host a local version of the updated map. 
+
 1. Get a free API Key at [https://mapbox.com](https://mapbox.com)
 2. Clone the repo
    ```sh
