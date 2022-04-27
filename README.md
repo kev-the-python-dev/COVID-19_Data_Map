@@ -114,6 +114,16 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+Before **pip** you must have the following Django supported Geospatial libraries installed:
+* [GEOS](https://docs.djangoproject.com/en/4.0/ref/contrib/gis/geos/)
+* [PROJ](https://proj.org/install.html)
+* [GDAL](https://docs.djangoproject.com/en/4.0/ref/contrib/gis/gdal/)
+
+Instructions to install --> https://docs.djangoproject.com/en/4.0/ref/contrib/gis/install/geolibs/
+
+Once the 3 above libraries are installed you can move onto installing * [SpatialLite](https://docs.djangoproject.com/en/4.0/ref/contrib/gis/install/spatialite/)
+
+
 This is an example of how to list things you need to use the software and how to install them.
 * pip
   ```sh
