@@ -6,7 +6,7 @@ import datetime
 import csv, json
 
 # Required to convert original file into correct format for GeoDjango
-import json2geo, json_float
+import json_to_geojson, json_str_to_float
 
 # First we check today's date, if not valid, we check previous date and so on.
 today = datetime.date.today()
@@ -27,18 +27,16 @@ except requests.exceptions.HTTPError as e:
     end_date = start_date - 30*day_delta
     
     for i in range((start_date - end_date).days):
-        prev_date = start_date - i*day_delta
-        prev_found_date = new_date.strftime(day_format)
+        prev_date_search = start_date - i*day_delta
+        prev_found_date = prev_date_search.strftime(day_format)
         url_2 = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports_us/' + prev_found_date + '.csv'
         r = requests.get(url_2)
         
         if r.status_code == 200:
             break
-''' Original .csv has column named "Long_" and Django can't parse that correctly. So we are going to rename the "Long_" column to "Long". This will only work on UNIX based systems, so if this program is ran on Windows there will be an error when this step is processed. '''
+
 with open(filename, 'wb') as f:
     f.write(r.content)    
-    COMMAND = '''awk -F, -v OFS=, 'NR==1 && $5=="Long_" {$5="Long"};1' cov-data.csv'''
-    subprocess.call(COMMAND, shell=True)
 
 def csvToJson(csvFilePath, jsonFilePath):
     cov_data = []
@@ -46,6 +44,8 @@ def csvToJson(csvFilePath, jsonFilePath):
     with open(csvFilePath) as infd, open('reformatted_covid_data.csv', 'w') as outfd:
         reader = csv.reader(infd)
         writer = csv.writer(outfd)
+
+        # Original .csv has column named "Long_" and Django can't parse that correctly. So we are going to rename the "Long_" column to "Long".
 
         header = next(reader)
         header[4] = 'Long'
@@ -58,6 +58,7 @@ def csvToJson(csvFilePath, jsonFilePath):
     new_csv = directory + '/reformatted_covid_data.csv'
    
     # Unfortunately the original data includes locations that aren't U.S. specific and breaks program. This removes those locations and once removed will write to a regular JSON file.
+ 
     with open(new_csv, encoding='utf-8') as csv_to_json:
         csvReader = csv.DictReader(csv_to_json)
         
@@ -70,13 +71,16 @@ def csvToJson(csvFilePath, jsonFilePath):
     with open(jsonFilePath, 'w', encoding='utf-8') as json_file:
         json_file.write(json.dumps(cov_data, indent=4))
 
+def file_removal(file1, file2, file3):
+    remove(file1)
+    remove(file2)
+    remove(file3)
+
 json_file_path = directory + '/cov_data.json'
 
 if __name__ == '__main__':
     csvToJson(filename,json_file_path)
-    json2geo.conv_to_geo()
-    json_float.conv_to_float()
-    remove('./cov-data.csv')
-    remove('./reformatted_covid_data.csv')
-    remove('./cov_data.json')
+    json_to_geojson.conv_to_geo()
+    json_str_to_float.conv_to_float()
+    file_removal('./cov-data.csv', './reformatted_covid_data.csv', './cov_data.json')
     shutil.move('./geocovdata.json', './mymap/static/geocovdata.json')
