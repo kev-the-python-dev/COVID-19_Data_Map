@@ -2,6 +2,7 @@ from sys import argv
 from os.path import exists
 import json
 
+'''To get get the original COVID-19 data to create actual map markers based on what state the data is for we needed to convert CSV --> JSON --> GeoJSON. The original script already transforms the csv data into json. This script's sole purpose is just to convert that JSON file into GeoJSON format for GeoDjango. ''' 
 
 def conv_to_geo():
     in_file= './cov_data.json'
