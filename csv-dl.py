@@ -5,46 +5,44 @@ import shutil
 import datetime
 import csv, json
 
-#python script imports
+# Required to convert original file into correct format for GeoDjango
 import json2geo, json_float
 
-#Main Execution
+# First we check today's date, if not valid, we check previous date and so on.
 today = datetime.date.today()
 day_format = "%m-%d-%Y"
 today_formatted = today.strftime(day_format)
  
 url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports_us/' + today_formatted + '.csv'
-print(url)
 directory = getcwd()
 filename = directory + '/cov-data.csv'
-
 r = requests.get(url)
+
 try:
     r.raise_for_status()
     print(r.raise_for_status())
 except requests.exceptions.HTTPError as e:
-    print('error')
     day_delta = datetime.timedelta(days=1)
     start_date = datetime.date.today()
     end_date = start_date - 30*day_delta
+    
     for i in range((start_date - end_date).days):
-        new_date = start_date - i*day_delta
-        new_date = new_date.strftime(day_format)
-        url_2 = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports_us/' + new_date + '.csv'
+        prev_date = start_date - i*day_delta
+        prev_found_date = new_date.strftime(day_format)
+        url_2 = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports_us/' + prev_found_date + '.csv'
         r = requests.get(url_2)
+        
         if r.status_code == 200:
-            print(f'{url_2} is valid')
             break
-
+''' Original .csv has column named "Long_" and Django can't parse that correctly. So we are going to rename the "Long_" column to "Long". This will only work on UNIX based systems, so if this program is ran on Windows there will be an error when this step is processed. '''
 with open(filename, 'wb') as f:
     f.write(r.content)    
     COMMAND = '''awk -F, -v OFS=, 'NR==1 && $5=="Long_" {$5="Long"};1' cov-data.csv'''
     subprocess.call(COMMAND, shell=True)
-# Parsing the data
+
 def csvToJson(csvFilePath, jsonFilePath):
     cov_data = []
 
-    # For renaming the Long_ column to Long (required for djano-import-export format)
     with open(csvFilePath) as infd, open('reformatted_covid_data.csv', 'w') as outfd:
         reader = csv.reader(infd)
         writer = csv.writer(outfd)
@@ -58,7 +56,8 @@ def csvToJson(csvFilePath, jsonFilePath):
             writer.writerow(row)
 
     new_csv = directory + '/reformatted_covid_data.csv'
-   # Convert .csv to JSON (list with nested dict)
+   
+    # Unfortunately the original data includes locations that aren't U.S. specific and breaks program. This removes those locations and once removed will write to a regular JSON file.
     with open(new_csv, encoding='utf-8') as csv_to_json:
         csvReader = csv.DictReader(csv_to_json)
         
