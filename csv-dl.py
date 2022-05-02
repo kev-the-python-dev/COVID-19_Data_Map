@@ -50,10 +50,11 @@ def csvToJson(csvFilePath, jsonFilePath):
         header = next(reader)
         header[4] = 'Long'
 
-        writer.writerow(header)
+        # Some data is incomplete so removing 'blank' data
+        writer.writerow((header[0], header[2], header[3], header[4], header[5], header[9], header[10], header[11]))
 
         for row in reader:
-            writer.writerow(row)
+            writer.writerow((row[0], row[2], row[3], row[4], row[5], row[9], row[10], row[11]))
 
     new_csv = directory + '/reformatted_covid_data.csv'
    
