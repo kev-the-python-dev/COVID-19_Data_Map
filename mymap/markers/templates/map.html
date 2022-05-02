@@ -10,6 +10,17 @@
 	        <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"/></script>
 </head>
 
+<style>
+	.banner-section {
+		text-align: center;
+		background-color: #073855;
+		color: #fff;
+		font-family: 'Roboto', 'sans-serif';
+		display: block;
+		padding: 20px 0;
+	}
+</style>
+
 <body>
 	<div id="mapid" style='height: 500px;'></div>
 	<script>
@@ -24,7 +35,7 @@
 				id: 'mapbox/dark-v10',
 				tileSize: 512,
 				zoomOffset: -1,
-				accessToken: '<Access Token>'
+				accessToken: 'pk.eyJ1Ijoia2luZ2NvYnJhcHkiLCJhIjoiY2wxbjJxaHFwMHFtdjNvczl4cGFrOG5wZyJ9.5_vEZGOelHpCAdPEICYe0Q'
 				}).addTo(mymap);
 				
 		let geo_cov = $.getJSON('../../static/geocovdata.json', function(response) {
@@ -46,5 +57,11 @@
     	}
 	
 	</script>
+
+        <div class="banner-section">
+                <h1> Click any state to view it's current Covid-19 Data!</h1>
+        </div>
+
+	
 </body>
 </html>
