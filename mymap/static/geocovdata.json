@@ -12,23 +12,13 @@
             },
             "properties": {
                 "Province_State": "Alabama",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "32.3182",
                 "Long": "-86.9023",
-                "Confirmed": "1300076",
-                "Deaths": "19545",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "1.0",
-                "Incident_Rate": "26514.92856174099",
-                "Total_Test_Results": "7582302.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.5033736489251397",
-                "UID": "84000001.0",
-                "ISO3": "USA",
-                "Testing_Rate": "154640.34092125832",
-                "Hospitalization_Rate": ""
+                "Confirmed": "1302397",
+                "Deaths": "19601",
+                "Incident_Rate": "26562.26513990396",
+                "Total_Test_Results": "7621478.0"
             }
         },
         {
@@ -42,23 +32,13 @@
             },
             "properties": {
                 "Province_State": "Alaska",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "61.3707",
                 "Long": "-152.4044",
-                "Confirmed": "251506",
-                "Deaths": "1248",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "2.0",
-                "Incident_Rate": "34380.11332180522",
-                "Total_Test_Results": "",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.4962108259842707",
-                "UID": "84000002.0",
-                "ISO3": "USA",
-                "Testing_Rate": "",
-                "Hospitalization_Rate": ""
+                "Confirmed": "254466",
+                "Deaths": "1253",
+                "Incident_Rate": "34784.736414027844",
+                "Total_Test_Results": ""
             }
         },
         {
@@ -67,28 +47,18 @@
                 "type": "Point",
                 "coordinates": [
                     -170.132,
-                    -14.270999999999999
+                    -14.271
                 ]
             },
             "properties": {
                 "Province_State": "American Samoa",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
-                "Lat": "-14.270999999999999",
+                "Last_Update": "2022-05-07 04:32:17",
+                "Lat": "-14.271",
                 "Long": "-170.132",
-                "Confirmed": "5766",
-                "Deaths": "23",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "60.0",
-                "Incident_Rate": "10362.861918369548",
-                "Total_Test_Results": "",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.39889004509191817",
-                "UID": "16.0",
-                "ISO3": "ASM",
-                "Testing_Rate": "",
-                "Hospitalization_Rate": ""
+                "Confirmed": "5923",
+                "Deaths": "28",
+                "Incident_Rate": "10645.027947017486",
+                "Total_Test_Results": ""
             }
         },
         {
@@ -102,23 +72,13 @@
             },
             "properties": {
                 "Province_State": "Arizona",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "33.7298",
                 "Long": "-111.4312",
-                "Confirmed": "2019174",
-                "Deaths": "29852",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "4.0",
-                "Incident_Rate": "27740.79552756344",
-                "Total_Test_Results": "19150645.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.4784263268049211",
-                "UID": "84000004.0",
-                "ISO3": "USA",
-                "Testing_Rate": "263104.6790251633",
-                "Hospitalization_Rate": ""
+                "Confirmed": "2025435",
+                "Deaths": "30189",
+                "Incident_Rate": "27826.813434290685",
+                "Total_Test_Results": "19289892.0"
             }
         },
         {
@@ -132,23 +92,13 @@
             },
             "properties": {
                 "Province_State": "Arkansas",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "34.9697",
                 "Long": "-92.3731",
-                "Confirmed": "835247",
-                "Deaths": "11375",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "5.0",
-                "Incident_Rate": "27677.31105134727",
-                "Total_Test_Results": "5111158.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.3618725957710711",
-                "UID": "84000005.0",
-                "ISO3": "USA",
-                "Testing_Rate": "169366.79784373008",
-                "Hospitalization_Rate": ""
+                "Confirmed": "836829",
+                "Deaths": "11404",
+                "Incident_Rate": "27729.73327624988",
+                "Total_Test_Results": "5126657.0"
             }
         },
         {
@@ -162,23 +112,13 @@
             },
             "properties": {
                 "Province_State": "California",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "36.1162",
                 "Long": "-119.6816",
-                "Confirmed": "9213640",
-                "Deaths": "90136",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "6.0",
-                "Incident_Rate": "23318.455152472692",
-                "Total_Test_Results": "159495767.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.9782887110848698",
-                "UID": "84000006.0",
-                "ISO3": "USA",
-                "Testing_Rate": "403661.84155216976",
-                "Hospitalization_Rate": ""
+                "Confirmed": "9288293",
+                "Deaths": "90497",
+                "Incident_Rate": "23507.391624105785",
+                "Total_Test_Results": "161974178.0"
             }
         },
         {
@@ -192,23 +132,13 @@
             },
             "properties": {
                 "Province_State": "Colorado",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "39.0598",
                 "Long": "-105.3111",
-                "Confirmed": "1379646",
-                "Deaths": "12141",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "8.0",
-                "Incident_Rate": "23957.444828170625",
-                "Total_Test_Results": "17307956.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.8800083499680352",
-                "UID": "84000008.0",
-                "ISO3": "USA",
-                "Testing_Rate": "300551.3015356148",
-                "Hospitalization_Rate": ""
+                "Confirmed": "1389827",
+                "Deaths": "12487",
+                "Incident_Rate": "24134.23709647395",
+                "Total_Test_Results": "17482651.0"
             }
         },
         {
@@ -222,23 +152,13 @@
             },
             "properties": {
                 "Province_State": "Connecticut",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "41.5978",
                 "Long": "-72.7554",
-                "Confirmed": "754924",
-                "Deaths": "10838",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "9.0",
-                "Incident_Rate": "21174.284145988808",
-                "Total_Test_Results": "13922038.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.4356412036178476",
-                "UID": "84000009.0",
-                "ISO3": "USA",
-                "Testing_Rate": "390488.5637537735",
-                "Hospitalization_Rate": ""
+                "Confirmed": "766172",
+                "Deaths": "10874",
+                "Incident_Rate": "21489.77066923364",
+                "Total_Test_Results": "14038264.0"
             }
         },
         {
@@ -252,23 +172,13 @@
             },
             "properties": {
                 "Province_State": "Delaware",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "39.3185",
                 "Long": "-75.5071",
-                "Confirmed": "261762",
-                "Deaths": "2906",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "10.0",
-                "Incident_Rate": "26881.46203802975",
-                "Total_Test_Results": "3266430.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.1101687792727746",
-                "UID": "84000010.0",
-                "ISO3": "USA",
-                "Testing_Rate": "335443.70093780424",
-                "Hospitalization_Rate": ""
+                "Confirmed": "264376",
+                "Deaths": "2928",
+                "Incident_Rate": "27149.90490508994",
+                "Total_Test_Results": "3286478.0"
             }
         },
         {
@@ -282,23 +192,13 @@
             },
             "properties": {
                 "Province_State": "District of Columbia",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "38.8974",
                 "Long": "-77.0268",
-                "Confirmed": "141355",
-                "Deaths": "1335",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "11.0",
-                "Incident_Rate": "20029.07549284519",
-                "Total_Test_Results": "",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.9444306886915921",
-                "UID": "84000011.0",
-                "ISO3": "USA",
-                "Testing_Rate": "",
-                "Hospitalization_Rate": ""
+                "Confirmed": "141943",
+                "Deaths": "1340",
+                "Incident_Rate": "20112.39123257702",
+                "Total_Test_Results": ""
             }
         },
         {
@@ -312,23 +212,13 @@
             },
             "properties": {
                 "Province_State": "Florida",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "27.7663",
                 "Long": "-81.6868",
-                "Confirmed": "5942723",
-                "Deaths": "73869",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "12.0",
-                "Incident_Rate": "27669.223251965508",
-                "Total_Test_Results": "56866943.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.2430160382706716",
-                "UID": "84000012.0",
-                "ISO3": "USA",
-                "Testing_Rate": "264771.5771917684",
-                "Hospitalization_Rate": ""
+                "Confirmed": "6002153",
+                "Deaths": "74060",
+                "Incident_Rate": "27945.92838156087",
+                "Total_Test_Results": "57284048.0"
             }
         },
         {
@@ -342,23 +232,13 @@
             },
             "properties": {
                 "Province_State": "Georgia",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "33.0406",
                 "Long": "-83.6431",
-                "Confirmed": "2509160",
-                "Deaths": "37659",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "13.0",
-                "Incident_Rate": "23632.476543507782",
-                "Total_Test_Results": "17749279.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.5008608458607662",
-                "UID": "84000013.0",
-                "ISO3": "USA",
-                "Testing_Rate": "167171.25238393535",
-                "Hospitalization_Rate": ""
+                "Confirmed": "2521664",
+                "Deaths": "37969",
+                "Incident_Rate": "23750.245233706897",
+                "Total_Test_Results": "17954625.0"
             }
         },
         {
@@ -372,23 +252,13 @@
             },
             "properties": {
                 "Province_State": "Guam",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "13.4443",
                 "Long": "144.7937",
-                "Confirmed": "48020",
-                "Deaths": "354",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "66.0",
-                "Incident_Rate": "29239.659256282383",
-                "Total_Test_Results": "386419.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.7371928363182008",
-                "UID": "316.0",
-                "ISO3": "GUM",
-                "Testing_Rate": "235292.7923813699",
-                "Hospitalization_Rate": ""
+                "Confirmed": "48323",
+                "Deaths": "355",
+                "Incident_Rate": "29424.157730973213",
+                "Total_Test_Results": "392179.0"
             }
         },
         {
@@ -402,23 +272,13 @@
             },
             "properties": {
                 "Province_State": "Hawaii",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "21.0943",
                 "Long": "-157.4983",
-                "Confirmed": "245035",
-                "Deaths": "1407",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "15.0",
-                "Incident_Rate": "17306.296049360393",
-                "Total_Test_Results": "3746020.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.5742036851878303",
-                "UID": "84000015.0",
-                "ISO3": "USA",
-                "Testing_Rate": "264573.351263391",
-                "Hospitalization_Rate": ""
+                "Confirmed": "252654",
+                "Deaths": "1428",
+                "Incident_Rate": "17844.409664150433",
+                "Total_Test_Results": "3848436.0"
             }
         },
         {
@@ -432,23 +292,13 @@
             },
             "properties": {
                 "Province_State": "Idaho",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "44.2405",
                 "Long": "-114.4788",
-                "Confirmed": "445670",
-                "Deaths": "4922",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "16.0",
-                "Incident_Rate": "24938.656400298813",
-                "Total_Test_Results": "1219118.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.1044046043036326",
-                "UID": "84000016.0",
-                "ISO3": "USA",
-                "Testing_Rate": "68219.00714299704",
-                "Hospitalization_Rate": ""
+                "Confirmed": "446856",
+                "Deaths": "4928",
+                "Incident_Rate": "25005.022201207008",
+                "Total_Test_Results": "1222382.0"
             }
         },
         {
@@ -462,23 +312,13 @@
             },
             "properties": {
                 "Province_State": "Illinois",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "40.3495",
                 "Long": "-88.9861",
-                "Confirmed": "3124700",
-                "Deaths": "36017",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "17.0",
-                "Incident_Rate": "24658.650086676567",
-                "Total_Test_Results": "",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.1526546548468652",
-                "UID": "84000017.0",
-                "ISO3": "USA",
-                "Testing_Rate": "",
-                "Hospitalization_Rate": ""
+                "Confirmed": "3169315",
+                "Deaths": "36093",
+                "Incident_Rate": "25010.7305019539",
+                "Total_Test_Results": ""
             }
         },
         {
@@ -492,23 +332,13 @@
             },
             "properties": {
                 "Province_State": "Indiana",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "39.8494",
                 "Long": "-86.2583",
-                "Confirmed": "1699213",
-                "Deaths": "23552",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "18.0",
-                "Incident_Rate": "25240.013730985283",
-                "Total_Test_Results": "19392241.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.3860534259095243",
-                "UID": "84000018.0",
-                "ISO3": "USA",
-                "Testing_Rate": "288051.2502638432",
-                "Hospitalization_Rate": ""
+                "Confirmed": "1707085",
+                "Deaths": "23614",
+                "Incident_Rate": "25356.943973450656",
+                "Total_Test_Results": "19704259.0"
             }
         },
         {
@@ -522,23 +352,13 @@
             },
             "properties": {
                 "Province_State": "Iowa",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "42.0115",
                 "Long": "-93.2105",
-                "Confirmed": "762557",
-                "Deaths": "9510",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "19.0",
-                "Incident_Rate": "24169.257734376733",
-                "Total_Test_Results": "",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.2471198874313658",
-                "UID": "84000019.0",
-                "ISO3": "USA",
-                "Testing_Rate": "",
-                "Hospitalization_Rate": ""
+                "Confirmed": "765490",
+                "Deaths": "9533",
+                "Incident_Rate": "24262.21922176053",
+                "Total_Test_Results": ""
             }
         },
         {
@@ -552,23 +372,13 @@
             },
             "properties": {
                 "Province_State": "Kansas",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "38.5266",
                 "Long": "-96.7265",
-                "Confirmed": "774750",
-                "Deaths": "8597",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "20.0",
-                "Incident_Rate": "26593.42590603004",
-                "Total_Test_Results": "",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.109648273636657",
-                "UID": "84000020.0",
-                "ISO3": "USA",
-                "Testing_Rate": "",
-                "Hospitalization_Rate": ""
+                "Confirmed": "778729",
+                "Deaths": "8691",
+                "Incident_Rate": "26730.005759763622",
+                "Total_Test_Results": ""
             }
         },
         {
@@ -582,23 +392,13 @@
             },
             "properties": {
                 "Province_State": "Kentucky",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "37.6681",
                 "Long": "-84.6701",
-                "Confirmed": "1326030",
-                "Deaths": "15425",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "21.0",
-                "Incident_Rate": "29680.551821943995",
-                "Total_Test_Results": "",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.1632466837100215",
-                "UID": "84000021.0",
-                "ISO3": "USA",
-                "Testing_Rate": "",
-                "Hospitalization_Rate": ""
+                "Confirmed": "1331403",
+                "Deaths": "15670",
+                "Incident_Rate": "29800.8157714318",
+                "Total_Test_Results": ""
             }
         },
         {
@@ -612,23 +412,13 @@
             },
             "properties": {
                 "Province_State": "Louisiana",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "31.1695",
                 "Long": "-91.8678",
-                "Confirmed": "1172417",
-                "Deaths": "17235",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "22.0",
-                "Incident_Rate": "25219.809696880526",
-                "Total_Test_Results": "13374544.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.4700400966550298",
-                "UID": "84000022.0",
-                "ISO3": "USA",
-                "Testing_Rate": "287699.2183349058",
-                "Hospitalization_Rate": ""
+                "Confirmed": "1175460",
+                "Deaths": "17276",
+                "Incident_Rate": "25285.26753390234",
+                "Total_Test_Results": "13506993.0"
             }
         },
         {
@@ -642,23 +432,13 @@
             },
             "properties": {
                 "Province_State": "Maine",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "44.6939",
                 "Long": "-69.3819",
-                "Confirmed": "242602",
-                "Deaths": "2282",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "23.0",
-                "Incident_Rate": "18047.89720669061",
-                "Total_Test_Results": "4129962.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.94063527918154",
-                "UID": "84000023.0",
-                "ISO3": "USA",
-                "Testing_Rate": "307240.37577405944",
-                "Hospitalization_Rate": ""
+                "Confirmed": "249728",
+                "Deaths": "2316",
+                "Incident_Rate": "18578.02191916156",
+                "Total_Test_Results": "4196423.0"
             }
         },
         {
@@ -672,23 +452,13 @@
             },
             "properties": {
                 "Province_State": "Maryland",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "39.0639",
                 "Long": "-76.8021",
-                "Confirmed": "1028026",
-                "Deaths": "14434",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "24.0",
-                "Incident_Rate": "17004.30720779135",
-                "Total_Test_Results": "20080389.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.4040500921182928",
-                "UID": "84000024.0",
-                "ISO3": "USA",
-                "Testing_Rate": "332144.4237869024",
-                "Hospitalization_Rate": ""
+                "Confirmed": "1039776",
+                "Deaths": "14486",
+                "Incident_Rate": "17198.66086197086",
+                "Total_Test_Results": "20347521.0"
             }
         },
         {
@@ -702,23 +472,13 @@
             },
             "properties": {
                 "Province_State": "Massachusetts",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "42.2302",
                 "Long": "-71.5301",
-                "Confirmed": "1746596",
-                "Deaths": "20238",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "25.0",
-                "Incident_Rate": "25340.518531511694",
-                "Total_Test_Results": "43452857.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.1587110012847848",
-                "UID": "84000025.0",
-                "ISO3": "USA",
-                "Testing_Rate": "630436.5337236705",
-                "Hospitalization_Rate": ""
+                "Confirmed": "1779829",
+                "Deaths": "20334",
+                "Incident_Rate": "25822.680091688027",
+                "Total_Test_Results": "43962101.0"
             }
         },
         {
@@ -732,23 +492,13 @@
             },
             "properties": {
                 "Province_State": "Michigan",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "43.3266",
                 "Long": "-84.5361",
-                "Confirmed": "2411464",
-                "Deaths": "35935",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "26.0",
-                "Incident_Rate": "24146.37558142667",
-                "Total_Test_Results": "23823963.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.4901736040844895",
-                "UID": "84000026.0",
-                "ISO3": "USA",
-                "Testing_Rate": "238553.16041873835",
-                "Hospitalization_Rate": ""
+                "Confirmed": "2444891",
+                "Deaths": "36064",
+                "Incident_Rate": "24481.08549066037",
+                "Total_Test_Results": "24118871.0"
             }
         },
         {
@@ -762,23 +512,13 @@
             },
             "properties": {
                 "Province_State": "Minnesota",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "45.6945",
                 "Long": "-93.9002",
-                "Confirmed": "1447575",
-                "Deaths": "12754",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "27.0",
-                "Incident_Rate": "25667.8981891017",
-                "Total_Test_Results": "",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.8810597032968931",
-                "UID": "84000027.0",
-                "ISO3": "USA",
-                "Testing_Rate": "",
-                "Hospitalization_Rate": ""
+                "Confirmed": "1463955",
+                "Deaths": "12805",
+                "Incident_Rate": "25958.34267200413",
+                "Total_Test_Results": ""
             }
         },
         {
@@ -792,23 +532,13 @@
             },
             "properties": {
                 "Province_State": "Mississippi",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "32.7416",
                 "Long": "-89.6787",
-                "Confirmed": "797161",
-                "Deaths": "12436",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "28.0",
-                "Incident_Rate": "26784.982875521364",
-                "Total_Test_Results": "",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.5600361783880543",
-                "UID": "84000028.0",
-                "ISO3": "USA",
-                "Testing_Rate": "",
-                "Hospitalization_Rate": ""
+                "Confirmed": "798721",
+                "Deaths": "12454",
+                "Incident_Rate": "26837.39960600091",
+                "Total_Test_Results": ""
             }
         },
         {
@@ -822,23 +552,13 @@
             },
             "properties": {
                 "Province_State": "Missouri",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "38.4561",
                 "Long": "-92.2884",
-                "Confirmed": "1420517",
-                "Deaths": "20207",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "29.0",
-                "Incident_Rate": "23145.15135656174",
-                "Total_Test_Results": "9853234.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.4225102550691051",
-                "UID": "84000029.0",
-                "ISO3": "USA",
-                "Testing_Rate": "160543.37419518403",
-                "Hospitalization_Rate": ""
+                "Confirmed": "1423021",
+                "Deaths": "20228",
+                "Incident_Rate": "23185.950205851703",
+                "Total_Test_Results": ""
             }
         },
         {
@@ -852,23 +572,13 @@
             },
             "properties": {
                 "Province_State": "Montana",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "46.9219",
                 "Long": "-110.4544",
-                "Confirmed": "273680",
-                "Deaths": "3322",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "30.0",
-                "Incident_Rate": "25606.81451152625",
-                "Total_Test_Results": "2827599.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.2138263665594855",
-                "UID": "84000030.0",
-                "ISO3": "USA",
-                "Testing_Rate": "264563.7354062303",
-                "Hospitalization_Rate": ""
+                "Confirmed": "274598",
+                "Deaths": "3378",
+                "Incident_Rate": "25692.706998085665",
+                "Total_Test_Results": "2848100.0"
             }
         },
         {
@@ -882,23 +592,13 @@
             },
             "properties": {
                 "Province_State": "Nebraska",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "41.1254",
                 "Long": "-98.2681",
-                "Confirmed": "479545",
-                "Deaths": "4197",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "31.0",
-                "Incident_Rate": "24790.27175239143",
-                "Total_Test_Results": "5464129.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.8752046210470341",
-                "UID": "84000031.0",
-                "ISO3": "USA",
-                "Testing_Rate": "282470.3475171732",
-                "Hospitalization_Rate": ""
+                "Confirmed": "480805",
+                "Deaths": "4216",
+                "Incident_Rate": "24855.40795943772",
+                "Total_Test_Results": "5481264.0"
             }
         },
         {
@@ -912,23 +612,13 @@
             },
             "properties": {
                 "Province_State": "Nevada",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "38.3135",
                 "Long": "-117.0554",
-                "Confirmed": "710350",
-                "Deaths": "10684",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "32.0",
-                "Incident_Rate": "23062.14360571348",
-                "Total_Test_Results": "",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.5040473006264516",
-                "UID": "84000032.0",
-                "ISO3": "USA",
-                "Testing_Rate": "",
-                "Hospitalization_Rate": ""
+                "Confirmed": "714715",
+                "Deaths": "10780",
+                "Incident_Rate": "23203.85720723236",
+                "Total_Test_Results": ""
             }
         },
         {
@@ -942,23 +632,13 @@
             },
             "properties": {
                 "Province_State": "New Hampshire",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "43.4525",
                 "Long": "-71.5639",
-                "Confirmed": "308653",
-                "Deaths": "2477",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "33.0",
-                "Incident_Rate": "22699.897257579",
-                "Total_Test_Results": "3738315.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.8025193340093891",
-                "UID": "84000033.0",
-                "ISO3": "USA",
-                "Testing_Rate": "274934.5265280637",
-                "Hospitalization_Rate": ""
+                "Confirmed": "313288",
+                "Deaths": "2487",
+                "Incident_Rate": "23040.77851837633",
+                "Total_Test_Results": "3763981.0"
             }
         },
         {
@@ -972,23 +652,13 @@
             },
             "properties": {
                 "Province_State": "New Jersey",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "40.2989",
                 "Long": "-74.521",
-                "Confirmed": "2248959",
-                "Deaths": "33407",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "34.0",
-                "Incident_Rate": "25319.870437358353",
-                "Total_Test_Results": "17917394.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.4854428204338097",
-                "UID": "84000034.0",
-                "ISO3": "USA",
-                "Testing_Rate": "201722.70577413906",
-                "Hospitalization_Rate": ""
+                "Confirmed": "2281655",
+                "Deaths": "33482",
+                "Incident_Rate": "25687.977852308948",
+                "Total_Test_Results": "17976761.0"
             }
         },
         {
@@ -1002,23 +672,13 @@
             },
             "properties": {
                 "Province_State": "New Mexico",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "34.8405",
                 "Long": "-106.2485",
-                "Confirmed": "521583",
-                "Deaths": "7456",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "35.0",
-                "Incident_Rate": "24874.84673285232",
-                "Total_Test_Results": "6966686.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.4294944428786982",
-                "UID": "84000035.0",
-                "ISO3": "USA",
-                "Testing_Rate": "332248.6478391896",
-                "Hospitalization_Rate": ""
+                "Confirmed": "523940",
+                "Deaths": "7556",
+                "Incident_Rate": "24987.25456391532",
+                "Total_Test_Results": "7036024.0"
             }
         },
         {
@@ -1032,23 +692,13 @@
             },
             "properties": {
                 "Province_State": "New York",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "42.1657",
                 "Long": "-74.9481",
-                "Confirmed": "5135657",
-                "Deaths": "68264",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "36.0",
-                "Incident_Rate": "26399.57280828944",
-                "Total_Test_Results": "107162879.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.3292164955720371",
-                "UID": "84000036.0",
-                "ISO3": "USA",
-                "Testing_Rate": "550865.103823408",
-                "Hospitalization_Rate": ""
+                "Confirmed": "5220948",
+                "Deaths": "68449",
+                "Incident_Rate": "26838.00667651542",
+                "Total_Test_Results": "108062148.0"
             }
         },
         {
@@ -1062,23 +712,13 @@
             },
             "properties": {
                 "Province_State": "North Carolina",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "35.6301",
                 "Long": "-79.8064",
-                "Confirmed": "2647650",
-                "Deaths": "23363",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "37.0",
-                "Incident_Rate": "25244.363031417368",
-                "Total_Test_Results": "23063337.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.8824051517383341",
-                "UID": "84000037.0",
-                "ISO3": "USA",
-                "Testing_Rate": "219900.3840930336",
-                "Hospitalization_Rate": ""
+                "Confirmed": "2673326",
+                "Deaths": "24577",
+                "Incident_Rate": "25489.174190443173",
+                "Total_Test_Results": "23293144.0"
             }
         },
         {
@@ -1086,29 +726,19 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -99.78399999999999,
+                    -99.784,
                     47.5289
                 ]
             },
             "properties": {
                 "Province_State": "North Dakota",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "47.5289",
-                "Long": "-99.78399999999999",
-                "Confirmed": "240818",
-                "Deaths": "2263",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "38.0",
-                "Incident_Rate": "31600.84087646412",
-                "Total_Test_Results": "",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.9397138087684476",
-                "UID": "84000038.0",
-                "ISO3": "USA",
-                "Testing_Rate": "",
-                "Hospitalization_Rate": ""
+                "Long": "-99.784",
+                "Confirmed": "241739",
+                "Deaths": "2268",
+                "Incident_Rate": "31721.69718474349",
+                "Total_Test_Results": ""
             }
         },
         {
@@ -1122,23 +752,13 @@
             },
             "properties": {
                 "Province_State": "Northern Mariana Islands",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "15.0979",
                 "Long": "145.6739",
-                "Confirmed": "11263",
+                "Confirmed": "11281",
                 "Deaths": "34",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "69.0",
-                "Incident_Rate": "20424.70622370521",
-                "Total_Test_Results": "",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.3018733907484684",
-                "UID": "580.0",
-                "ISO3": "MNP",
-                "Testing_Rate": "",
-                "Hospitalization_Rate": ""
+                "Incident_Rate": "20457.34803423763",
+                "Total_Test_Results": ""
             }
         },
         {
@@ -1152,23 +772,13 @@
             },
             "properties": {
                 "Province_State": "Ohio",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "40.3888",
                 "Long": "-82.7649",
-                "Confirmed": "2688327",
-                "Deaths": "38360",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "39.0",
-                "Incident_Rate": "22998.579873557417",
-                "Total_Test_Results": "22110216.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.4269097472145316",
-                "UID": "84000039.0",
-                "ISO3": "USA",
-                "Testing_Rate": "189152.42405317773",
-                "Hospitalization_Rate": ""
+                "Confirmed": "2708071",
+                "Deaths": "38493",
+                "Incident_Rate": "23167.48937043913",
+                "Total_Test_Results": ""
             }
         },
         {
@@ -1182,23 +792,13 @@
             },
             "properties": {
                 "Province_State": "Oklahoma",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "35.5653",
                 "Long": "-96.9289",
-                "Confirmed": "1039952",
-                "Deaths": "15815",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "40.0",
-                "Incident_Rate": "26281.516847103507",
-                "Total_Test_Results": "",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.5207432650737729",
-                "UID": "84000040.0",
-                "ISO3": "USA",
-                "Testing_Rate": "",
-                "Hospitalization_Rate": ""
+                "Confirmed": "1042136",
+                "Deaths": "15940",
+                "Incident_Rate": "26336.71057988547",
+                "Total_Test_Results": ""
             }
         },
         {
@@ -1207,28 +807,18 @@
                 "type": "Point",
                 "coordinates": [
                     -122.0709,
-                    44.571999999999996
+                    44.572
                 ]
             },
             "properties": {
                 "Province_State": "Oregon",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
-                "Lat": "44.571999999999996",
+                "Last_Update": "2022-05-07 04:32:17",
+                "Lat": "44.572",
                 "Long": "-122.0709",
-                "Confirmed": "717505",
-                "Deaths": "7486",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "41.0",
-                "Incident_Rate": "17011.610728691714",
-                "Total_Test_Results": "11070097.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.0433376770893583",
-                "UID": "84000041.0",
-                "ISO3": "USA",
-                "Testing_Rate": "262465.32204355084",
-                "Hospitalization_Rate": ""
+                "Confirmed": "729412",
+                "Deaths": "7528",
+                "Incident_Rate": "17293.918516019374",
+                "Total_Test_Results": "11247028.0"
             }
         },
         {
@@ -1242,23 +832,13 @@
             },
             "properties": {
                 "Province_State": "Pennsylvania",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "40.5908",
                 "Long": "-77.2098",
-                "Confirmed": "2810781",
-                "Deaths": "44616",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "42.0",
-                "Incident_Rate": "21955.81483471045",
-                "Total_Test_Results": "25300929.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.5873168347160451",
-                "UID": "84000042.0",
-                "ISO3": "USA",
-                "Testing_Rate": "197632.7975285716",
-                "Hospitalization_Rate": ""
+                "Confirmed": "2829027",
+                "Deaths": "44733",
+                "Incident_Rate": "22098.339562703888",
+                "Total_Test_Results": "25454423.0"
             }
         },
         {
@@ -1272,23 +852,13 @@
             },
             "properties": {
                 "Province_State": "Puerto Rico",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "18.2208",
                 "Long": "-66.5901",
-                "Confirmed": "519946",
-                "Deaths": "4192",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "72.0",
-                "Incident_Rate": "16280.395053502307",
-                "Total_Test_Results": "4034309.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.8062375708246625",
-                "UID": "630.0",
-                "ISO3": "PRI",
-                "Testing_Rate": "126321.0877435346",
-                "Hospitalization_Rate": ""
+                "Confirmed": "562863",
+                "Deaths": "4227",
+                "Incident_Rate": "17624.199438017542",
+                "Total_Test_Results": "4113315.0"
             }
         },
         {
@@ -1302,23 +872,13 @@
             },
             "properties": {
                 "Province_State": "Rhode Island",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "41.6809",
                 "Long": "-71.5118",
-                "Confirmed": "369723",
-                "Deaths": "3538",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "44.0",
-                "Incident_Rate": "34900.56741752812",
-                "Total_Test_Results": "7760175.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.9569326225309218",
-                "UID": "84000044.0",
-                "ISO3": "USA",
-                "Testing_Rate": "732533.5744849961",
-                "Hospitalization_Rate": ""
+                "Confirmed": "375897",
+                "Deaths": "3544",
+                "Incident_Rate": "35483.37157965981",
+                "Total_Test_Results": "7828621.0"
             }
         },
         {
@@ -1332,23 +892,13 @@
             },
             "properties": {
                 "Province_State": "South Carolina",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "33.8569",
                 "Long": "-80.945",
-                "Confirmed": "1472093",
-                "Deaths": "17734",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "45.0",
-                "Incident_Rate": "28591.46963688408",
-                "Total_Test_Results": "13093393.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.2046793239285831",
-                "UID": "84000045.0",
-                "ISO3": "USA",
-                "Testing_Rate": "254304.14274321703",
-                "Hospitalization_Rate": ""
+                "Confirmed": "1474272",
+                "Deaths": "17767",
+                "Incident_Rate": "28633.79088448105",
+                "Total_Test_Results": "13124056.0"
             }
         },
         {
@@ -1362,23 +912,13 @@
             },
             "properties": {
                 "Province_State": "South Dakota",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "44.2998",
                 "Long": "-99.4388",
-                "Confirmed": "237535",
-                "Deaths": "2901",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "46.0",
-                "Incident_Rate": "26850.458764337447",
-                "Total_Test_Results": "1307954.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.2212937040857137",
-                "UID": "84000046.0",
-                "ISO3": "USA",
-                "Testing_Rate": "147848.37999726448",
-                "Hospitalization_Rate": ""
+                "Confirmed": "238185",
+                "Deaths": "2915",
+                "Incident_Rate": "26923.93340258789",
+                "Total_Test_Results": "1315034.0"
             }
         },
         {
@@ -1392,23 +932,13 @@
             },
             "properties": {
                 "Province_State": "Tennessee",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "35.7478",
                 "Long": "-86.6923",
-                "Confirmed": "2028220",
-                "Deaths": "26151",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "47.0",
-                "Incident_Rate": "29699.345777395625",
-                "Total_Test_Results": "12868874.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.2893571703266904",
-                "UID": "84000047.0",
-                "ISO3": "USA",
-                "Testing_Rate": "188439.68538508465",
-                "Hospitalization_Rate": ""
+                "Confirmed": "2031533",
+                "Deaths": "26206",
+                "Incident_Rate": "29747.85823292832",
+                "Total_Test_Results": "12933902.0"
             }
         },
         {
@@ -1422,23 +952,13 @@
             },
             "properties": {
                 "Province_State": "Texas",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "31.0545",
                 "Long": "-97.5635",
-                "Confirmed": "6814011",
-                "Deaths": "88042",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "48.0",
-                "Incident_Rate": "23499.92745521338",
-                "Total_Test_Results": "48286017.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.2920730535950118",
-                "UID": "84000048.0",
-                "ISO3": "USA",
-                "Testing_Rate": "166527.15949551592",
-                "Hospitalization_Rate": ""
+                "Confirmed": "6844247",
+                "Deaths": "88161",
+                "Incident_Rate": "23604.2043350916",
+                "Total_Test_Results": "48525299.0"
             }
         },
         {
@@ -1452,23 +972,13 @@
             },
             "properties": {
                 "Province_State": "Utah",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "40.15",
                 "Long": "-111.8624",
-                "Confirmed": "930558",
-                "Deaths": "4740",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "49.0",
-                "Incident_Rate": "29025.894911910887",
-                "Total_Test_Results": "6021075.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.5093717962770725",
-                "UID": "84000049.0",
-                "ISO3": "USA",
-                "Testing_Rate": "187808.91702261847",
-                "Hospitalization_Rate": ""
+                "Confirmed": "935479",
+                "Deaths": "4760",
+                "Incident_Rate": "29179.390372550108",
+                "Total_Test_Results": "6034259.0"
             }
         },
         {
@@ -1482,23 +992,13 @@
             },
             "properties": {
                 "Province_State": "Vermont",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "44.0459",
                 "Long": "-72.7107",
-                "Confirmed": "122341",
-                "Deaths": "629",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "50.0",
-                "Incident_Rate": "19606.27511061894",
-                "Total_Test_Results": "3557407.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.5141367162275934",
-                "UID": "84000050.0",
-                "ISO3": "USA",
-                "Testing_Rate": "570107.3256099066",
-                "Hospitalization_Rate": ""
+                "Confirmed": "126099",
+                "Deaths": "642",
+                "Incident_Rate": "20208.52931702321",
+                "Total_Test_Results": "3595221.0"
             }
         },
         {
@@ -1512,23 +1012,13 @@
             },
             "properties": {
                 "Province_State": "Virgin Islands",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "18.3358",
                 "Long": "-64.8963",
-                "Confirmed": "16202",
-                "Deaths": "111",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "78.0",
-                "Incident_Rate": "15104.224931946152",
-                "Total_Test_Results": "360684.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.6851006048635971",
-                "UID": "850.0",
-                "ISO3": "VIR",
-                "Testing_Rate": "336245.6650632061",
-                "Hospitalization_Rate": ""
+                "Confirmed": "17167",
+                "Deaths": "113",
+                "Incident_Rate": "16003.840847223775",
+                "Total_Test_Results": "380132.0"
             }
         },
         {
@@ -1542,23 +1032,13 @@
             },
             "properties": {
                 "Province_State": "Virginia",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "37.7693",
                 "Long": "-78.17",
-                "Confirmed": "1695897",
-                "Deaths": "20187",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "51.0",
-                "Incident_Rate": "19868.703941728683",
-                "Total_Test_Results": "13406427.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.19034351732446",
-                "UID": "84000051.0",
-                "ISO3": "USA",
-                "Testing_Rate": "157066.33656371688",
-                "Hospitalization_Rate": ""
+                "Confirmed": "1715478",
+                "Deaths": "20280",
+                "Incident_Rate": "20098.11002705284",
+                "Total_Test_Results": "13517328.0"
             }
         },
         {
@@ -1572,23 +1052,13 @@
             },
             "properties": {
                 "Province_State": "Washington",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "47.4009",
                 "Long": "-121.4905",
-                "Confirmed": "1489316",
-                "Deaths": "12668",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "53.0",
-                "Incident_Rate": "19557.937320984023",
-                "Total_Test_Results": "",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.8505918153031324",
-                "UID": "84000053.0",
-                "ISO3": "USA",
-                "Testing_Rate": "",
-                "Hospitalization_Rate": ""
+                "Confirmed": "1508065",
+                "Deaths": "12716",
+                "Incident_Rate": "19804.152205421666",
+                "Total_Test_Results": ""
             }
         },
         {
@@ -1602,23 +1072,13 @@
             },
             "properties": {
                 "Province_State": "West Virginia",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "38.4912",
                 "Long": "-80.9545",
-                "Confirmed": "500444",
-                "Deaths": "6845",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "54.0",
-                "Incident_Rate": "27924.27183707587",
-                "Total_Test_Results": "6130786.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.3677854065589756",
-                "UID": "84000054.0",
-                "ISO3": "USA",
-                "Testing_Rate": "342091.6922551554",
-                "Hospitalization_Rate": ""
+                "Confirmed": "502930",
+                "Deaths": "6880",
+                "Incident_Rate": "28062.98813657585",
+                "Total_Test_Results": "6174313.0"
             }
         },
         {
@@ -1632,23 +1092,13 @@
             },
             "properties": {
                 "Province_State": "Wisconsin",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "44.2685",
                 "Long": "-89.6165",
-                "Confirmed": "1605576",
-                "Deaths": "14411",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "55.0",
-                "Incident_Rate": "27575.68398370853",
-                "Total_Test_Results": "",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "0.8975595051246407",
-                "UID": "84000055.0",
-                "ISO3": "USA",
-                "Testing_Rate": "",
-                "Hospitalization_Rate": ""
+                "Confirmed": "1623087",
+                "Deaths": "14464",
+                "Incident_Rate": "27876.43449457736",
+                "Total_Test_Results": ""
             }
         },
         {
@@ -1662,23 +1112,13 @@
             },
             "properties": {
                 "Province_State": "Wyoming",
-                "Country_Region": "US",
-                "Last_Update": "2022-04-27 04:31:22",
+                "Last_Update": "2022-05-07 04:32:17",
                 "Lat": "42.756",
                 "Long": "-107.3025",
-                "Confirmed": "156550",
-                "Deaths": "1812",
-                "Recovered": "",
-                "Active": "",
-                "FIPS": "56.0",
-                "Incident_Rate": "27049.255389549013",
-                "Total_Test_Results": "1400432.0",
-                "People_Hospitalized": "",
-                "Case_Fatality_Ratio": "1.157457681251996",
-                "UID": "84000056.0",
-                "ISO3": "USA",
-                "Testing_Rate": "241971.5287364861",
-                "Hospitalization_Rate": ""
+                "Confirmed": "156745",
+                "Deaths": "1814",
+                "Incident_Rate": "27082.94817013645",
+                "Total_Test_Results": "1408245.0"
             }
         }
     ]

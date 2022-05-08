@@ -16,7 +16,10 @@ today_formatted = today.strftime(day_format)
 url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports_us/' + today_formatted + '.csv'
 directory = getcwd()
 filename = directory + '/cov-data.csv'
-r = requests.get(url)
+try:
+    r = requests.get(url)
+except requests.exceptions.Timeout as err:
+    print(f'\n{err}\n')
 
 try:
     r.raise_for_status()
@@ -34,6 +37,7 @@ except requests.exceptions.HTTPError as e:
         
         if r.status_code == 200:
             break
+
 
 with open(filename, 'wb') as f:
     f.write(r.content)    
@@ -59,10 +63,8 @@ def csvToJson(csvFilePath, jsonFilePath):
     new_csv = directory + '/reformatted_covid_data.csv'
    
     # Unfortunately the original data includes locations that aren't U.S. specific and breaks program. This removes those locations and once removed will write to a regular JSON file.
- 
     with open(new_csv, encoding='utf-8') as csv_to_json:
         csvReader = csv.DictReader(csv_to_json)
-        
         for rows in csvReader:
             if 'Princess' in rows['Province_State']:
                 pass
