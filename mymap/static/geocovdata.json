@@ -12,13 +12,13 @@
             },
             "properties": {
                 "Province_State": "Alabama",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "32.3182",
                 "Long": "-86.9023",
-                "Confirmed": "1302397",
-                "Deaths": "19601",
-                "Incident_Rate": "26562.26513990396",
-                "Total_Test_Results": "7621478.0"
+                "Confirmed": "1306662",
+                "Deaths": "19633",
+                "Incident_Rate": "26649.249416450737",
+                "Total_Test_Results": "7660935.0"
             }
         },
         {
@@ -32,12 +32,12 @@
             },
             "properties": {
                 "Province_State": "Alaska",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "61.3707",
                 "Long": "-152.4044",
-                "Confirmed": "254466",
-                "Deaths": "1253",
-                "Incident_Rate": "34784.736414027844",
+                "Confirmed": "258039",
+                "Deaths": "1286",
+                "Incident_Rate": "35273.15476149793",
                 "Total_Test_Results": ""
             }
         },
@@ -52,12 +52,12 @@
             },
             "properties": {
                 "Province_State": "American Samoa",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "-14.271",
                 "Long": "-170.132",
-                "Confirmed": "5923",
-                "Deaths": "28",
-                "Incident_Rate": "10645.027947017486",
+                "Confirmed": "6065",
+                "Deaths": "30",
+                "Incident_Rate": "10900.235437896516",
                 "Total_Test_Results": ""
             }
         },
@@ -72,13 +72,13 @@
             },
             "properties": {
                 "Province_State": "Arizona",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "33.7298",
                 "Long": "-111.4312",
-                "Confirmed": "2025435",
-                "Deaths": "30189",
-                "Incident_Rate": "27826.813434290685",
-                "Total_Test_Results": "19289892.0"
+                "Confirmed": "2038129",
+                "Deaths": "30259",
+                "Incident_Rate": "28001.212301563584",
+                "Total_Test_Results": "19368861.0"
             }
         },
         {
@@ -92,13 +92,13 @@
             },
             "properties": {
                 "Province_State": "Arkansas",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "34.9697",
                 "Long": "-92.3731",
-                "Confirmed": "836829",
-                "Deaths": "11404",
-                "Incident_Rate": "27729.73327624988",
-                "Total_Test_Results": "5126657.0"
+                "Confirmed": "839433",
+                "Deaths": "11426",
+                "Incident_Rate": "27816.02118626657",
+                "Total_Test_Results": "5154858.0"
             }
         },
         {
@@ -112,13 +112,13 @@
             },
             "properties": {
                 "Province_State": "California",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "36.1162",
                 "Long": "-119.6816",
-                "Confirmed": "9288293",
-                "Deaths": "90497",
-                "Incident_Rate": "23507.391624105785",
-                "Total_Test_Results": "161974178.0"
+                "Confirmed": "9403268",
+                "Deaths": "90904",
+                "Incident_Rate": "23798.377529910176",
+                "Total_Test_Results": "165553649.0"
             }
         },
         {
@@ -132,13 +132,13 @@
             },
             "properties": {
                 "Province_State": "Colorado",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "39.0598",
                 "Long": "-105.3111",
-                "Confirmed": "1389827",
-                "Deaths": "12487",
-                "Incident_Rate": "24134.23709647395",
-                "Total_Test_Results": "17482651.0"
+                "Confirmed": "1414790",
+                "Deaths": "12516",
+                "Incident_Rate": "24567.71763803724",
+                "Total_Test_Results": "17668447.0"
             }
         },
         {
@@ -152,13 +152,13 @@
             },
             "properties": {
                 "Province_State": "Connecticut",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "41.5978",
                 "Long": "-72.7554",
-                "Confirmed": "766172",
-                "Deaths": "10874",
-                "Incident_Rate": "21489.77066923364",
-                "Total_Test_Results": "14038264.0"
+                "Confirmed": "793615",
+                "Deaths": "10922",
+                "Incident_Rate": "22259.498323697364",
+                "Total_Test_Results": "14305922.0"
             }
         },
         {
@@ -172,13 +172,13 @@
             },
             "properties": {
                 "Province_State": "Delaware",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "39.3185",
                 "Long": "-75.5071",
-                "Confirmed": "264376",
-                "Deaths": "2928",
-                "Incident_Rate": "27149.90490508994",
-                "Total_Test_Results": "3286478.0"
+                "Confirmed": "269818",
+                "Deaths": "2936",
+                "Incident_Rate": "27708.76721669727",
+                "Total_Test_Results": "3320635.0"
             }
         },
         {
@@ -192,12 +192,12 @@
             },
             "properties": {
                 "Province_State": "District of Columbia",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "38.8974",
                 "Long": "-77.0268",
-                "Confirmed": "141943",
-                "Deaths": "1340",
-                "Incident_Rate": "20112.39123257702",
+                "Confirmed": "146163",
+                "Deaths": "1342",
+                "Incident_Rate": "20710.33752793132",
                 "Total_Test_Results": ""
             }
         },
@@ -212,13 +212,13 @@
             },
             "properties": {
                 "Province_State": "Florida",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "27.7663",
                 "Long": "-81.6868",
-                "Confirmed": "6002153",
-                "Deaths": "74060",
-                "Incident_Rate": "27945.92838156087",
-                "Total_Test_Results": "57284048.0"
+                "Confirmed": "6039475",
+                "Deaths": "74272",
+                "Incident_Rate": "28119.6990167074",
+                "Total_Test_Results": "57850685.0"
             }
         },
         {
@@ -232,13 +232,13 @@
             },
             "properties": {
                 "Province_State": "Georgia",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "33.0406",
                 "Long": "-83.6431",
-                "Confirmed": "2521664",
-                "Deaths": "37969",
-                "Incident_Rate": "23750.245233706897",
-                "Total_Test_Results": "17954625.0"
+                "Confirmed": "2541873",
+                "Deaths": "38158",
+                "Incident_Rate": "23940.583322337257",
+                "Total_Test_Results": "18055397.0"
             }
         },
         {
@@ -252,13 +252,13 @@
             },
             "properties": {
                 "Province_State": "Guam",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "13.4443",
                 "Long": "144.7937",
-                "Confirmed": "48323",
-                "Deaths": "355",
-                "Incident_Rate": "29424.157730973213",
-                "Total_Test_Results": "392179.0"
+                "Confirmed": "48611",
+                "Deaths": "361",
+                "Incident_Rate": "29599.52261780806",
+                "Total_Test_Results": "400903.0"
             }
         },
         {
@@ -272,13 +272,13 @@
             },
             "properties": {
                 "Province_State": "Hawaii",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "21.0943",
                 "Long": "-157.4983",
-                "Confirmed": "252654",
-                "Deaths": "1428",
-                "Incident_Rate": "17844.409664150433",
-                "Total_Test_Results": "3848436.0"
+                "Confirmed": "265571",
+                "Deaths": "1446",
+                "Incident_Rate": "18756.709646069703",
+                "Total_Test_Results": "3874692.0"
             }
         },
         {
@@ -292,13 +292,13 @@
             },
             "properties": {
                 "Province_State": "Idaho",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "44.2405",
                 "Long": "-114.4788",
-                "Confirmed": "446856",
-                "Deaths": "4928",
-                "Incident_Rate": "25005.022201207008",
-                "Total_Test_Results": "1222382.0"
+                "Confirmed": "448754",
+                "Deaths": "4936",
+                "Incident_Rate": "25111.22986572956",
+                "Total_Test_Results": "1225491.0"
             }
         },
         {
@@ -312,12 +312,12 @@
             },
             "properties": {
                 "Province_State": "Illinois",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "40.3495",
                 "Long": "-88.9861",
-                "Confirmed": "3169315",
-                "Deaths": "36093",
-                "Incident_Rate": "25010.7305019539",
+                "Confirmed": "3237287",
+                "Deaths": "36168",
+                "Incident_Rate": "25547.133281002",
                 "Total_Test_Results": ""
             }
         },
@@ -332,13 +332,13 @@
             },
             "properties": {
                 "Province_State": "Indiana",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "39.8494",
                 "Long": "-86.2583",
-                "Confirmed": "1707085",
-                "Deaths": "23614",
-                "Incident_Rate": "25356.943973450656",
-                "Total_Test_Results": "19704259.0"
+                "Confirmed": "1718494",
+                "Deaths": "23662",
+                "Incident_Rate": "25526.41261373108",
+                "Total_Test_Results": "19815380.0"
             }
         },
         {
@@ -352,12 +352,12 @@
             },
             "properties": {
                 "Province_State": "Iowa",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "42.0115",
                 "Long": "-93.2105",
-                "Confirmed": "765490",
-                "Deaths": "9533",
-                "Incident_Rate": "24262.21922176053",
+                "Confirmed": "772205",
+                "Deaths": "9571",
+                "Incident_Rate": "24475.05126669139",
                 "Total_Test_Results": ""
             }
         },
@@ -372,12 +372,12 @@
             },
             "properties": {
                 "Province_State": "Kansas",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "38.5266",
                 "Long": "-96.7265",
-                "Confirmed": "778729",
-                "Deaths": "8691",
-                "Incident_Rate": "26730.005759763622",
+                "Confirmed": "783498",
+                "Deaths": "8802",
+                "Incident_Rate": "26893.702498254566",
                 "Total_Test_Results": ""
             }
         },
@@ -392,12 +392,12 @@
             },
             "properties": {
                 "Province_State": "Kentucky",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "37.6681",
                 "Long": "-84.6701",
-                "Confirmed": "1331403",
-                "Deaths": "15670",
-                "Incident_Rate": "29800.8157714318",
+                "Confirmed": "1341465",
+                "Deaths": "15855",
+                "Incident_Rate": "30026.033686888008",
                 "Total_Test_Results": ""
             }
         },
@@ -412,13 +412,13 @@
             },
             "properties": {
                 "Province_State": "Louisiana",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "31.1695",
                 "Long": "-91.8678",
-                "Confirmed": "1175460",
-                "Deaths": "17276",
-                "Incident_Rate": "25285.26753390234",
-                "Total_Test_Results": "13506993.0"
+                "Confirmed": "1181779",
+                "Deaths": "17307",
+                "Incident_Rate": "25421.19526053424",
+                "Total_Test_Results": "13623810.0"
             }
         },
         {
@@ -432,13 +432,13 @@
             },
             "properties": {
                 "Province_State": "Maine",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "44.6939",
                 "Long": "-69.3819",
-                "Confirmed": "249728",
-                "Deaths": "2316",
-                "Incident_Rate": "18578.02191916156",
-                "Total_Test_Results": "4196423.0"
+                "Confirmed": "256958",
+                "Deaths": "2337",
+                "Incident_Rate": "19115.883506470705",
+                "Total_Test_Results": "4231920.0"
             }
         },
         {
@@ -452,13 +452,13 @@
             },
             "properties": {
                 "Province_State": "Maryland",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "39.0639",
                 "Long": "-76.8021",
-                "Confirmed": "1039776",
-                "Deaths": "14486",
-                "Incident_Rate": "17198.66086197086",
-                "Total_Test_Results": "20347521.0"
+                "Confirmed": "1062235",
+                "Deaths": "14545",
+                "Incident_Rate": "17570.14926360641",
+                "Total_Test_Results": "20732841.0"
             }
         },
         {
@@ -472,13 +472,13 @@
             },
             "properties": {
                 "Province_State": "Massachusetts",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "42.2302",
                 "Long": "-71.5301",
-                "Confirmed": "1779829",
-                "Deaths": "20334",
-                "Incident_Rate": "25822.680091688027",
-                "Total_Test_Results": "43962101.0"
+                "Confirmed": "1830028",
+                "Deaths": "20453",
+                "Incident_Rate": "26550.99315879877",
+                "Total_Test_Results": "44606129.0"
             }
         },
         {
@@ -492,13 +492,13 @@
             },
             "properties": {
                 "Province_State": "Michigan",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "43.3266",
                 "Long": "-84.5361",
-                "Confirmed": "2444891",
-                "Deaths": "36064",
-                "Incident_Rate": "24481.08549066037",
-                "Total_Test_Results": "24118871.0"
+                "Confirmed": "2501863",
+                "Deaths": "36218",
+                "Incident_Rate": "25051.55525907701",
+                "Total_Test_Results": "24272519.0"
             }
         },
         {
@@ -512,12 +512,12 @@
             },
             "properties": {
                 "Province_State": "Minnesota",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "45.6945",
                 "Long": "-93.9002",
-                "Confirmed": "1463955",
-                "Deaths": "12805",
-                "Incident_Rate": "25958.34267200413",
+                "Confirmed": "1488325",
+                "Deaths": "12875",
+                "Incident_Rate": "26390.46306567521",
                 "Total_Test_Results": ""
             }
         },
@@ -532,12 +532,12 @@
             },
             "properties": {
                 "Province_State": "Mississippi",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "32.7416",
                 "Long": "-89.6787",
-                "Confirmed": "798721",
-                "Deaths": "12454",
-                "Incident_Rate": "26837.39960600091",
+                "Confirmed": "803311",
+                "Deaths": "12461",
+                "Incident_Rate": "26991.625755296525",
                 "Total_Test_Results": ""
             }
         },
@@ -552,12 +552,12 @@
             },
             "properties": {
                 "Province_State": "Missouri",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "38.4561",
                 "Long": "-92.2884",
-                "Confirmed": "1423021",
-                "Deaths": "20228",
-                "Incident_Rate": "23185.950205851703",
+                "Confirmed": "1445472",
+                "Deaths": "20606",
+                "Incident_Rate": "23551.75490449745",
                 "Total_Test_Results": ""
             }
         },
@@ -572,13 +572,13 @@
             },
             "properties": {
                 "Province_State": "Montana",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "46.9219",
                 "Long": "-110.4544",
-                "Confirmed": "274598",
-                "Deaths": "3378",
-                "Incident_Rate": "25692.706998085665",
-                "Total_Test_Results": "2848100.0"
+                "Confirmed": "275113",
+                "Deaths": "3381",
+                "Incident_Rate": "25740.892870175096",
+                "Total_Test_Results": "2850235.0"
             }
         },
         {
@@ -592,13 +592,13 @@
             },
             "properties": {
                 "Province_State": "Nebraska",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "41.1254",
                 "Long": "-98.2681",
-                "Confirmed": "480805",
-                "Deaths": "4216",
-                "Incident_Rate": "24855.40795943772",
-                "Total_Test_Results": "5481264.0"
+                "Confirmed": "485409",
+                "Deaths": "4240",
+                "Incident_Rate": "25093.413592168767",
+                "Total_Test_Results": "5506012.0"
             }
         },
         {
@@ -612,12 +612,12 @@
             },
             "properties": {
                 "Province_State": "Nevada",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "38.3135",
                 "Long": "-117.0554",
-                "Confirmed": "714715",
-                "Deaths": "10780",
-                "Incident_Rate": "23203.85720723236",
+                "Confirmed": "722262",
+                "Deaths": "10824",
+                "Incident_Rate": "23448.877264658026",
                 "Total_Test_Results": ""
             }
         },
@@ -632,13 +632,13 @@
             },
             "properties": {
                 "Province_State": "New Hampshire",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "43.4525",
                 "Long": "-71.5639",
-                "Confirmed": "313288",
-                "Deaths": "2487",
-                "Incident_Rate": "23040.77851837633",
-                "Total_Test_Results": "3763981.0"
+                "Confirmed": "319901",
+                "Deaths": "2515",
+                "Incident_Rate": "23527.131868463224",
+                "Total_Test_Results": "3805144.0"
             }
         },
         {
@@ -652,13 +652,13 @@
             },
             "properties": {
                 "Province_State": "New Jersey",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "40.2989",
                 "Long": "-74.521",
-                "Confirmed": "2281655",
-                "Deaths": "33482",
-                "Incident_Rate": "25687.977852308948",
-                "Total_Test_Results": "17976761.0"
+                "Confirmed": "2335255",
+                "Deaths": "33586",
+                "Incident_Rate": "26291.432630916475",
+                "Total_Test_Results": "18065181.0"
             }
         },
         {
@@ -672,13 +672,13 @@
             },
             "properties": {
                 "Province_State": "New Mexico",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "34.8405",
                 "Long": "-106.2485",
-                "Confirmed": "523940",
-                "Deaths": "7556",
-                "Incident_Rate": "24987.25456391532",
-                "Total_Test_Results": "7036024.0"
+                "Confirmed": "528146",
+                "Deaths": "7650",
+                "Incident_Rate": "25187.843166991683",
+                "Total_Test_Results": "7112228.0"
             }
         },
         {
@@ -692,13 +692,13 @@
             },
             "properties": {
                 "Province_State": "New York",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "42.1657",
                 "Long": "-74.9481",
-                "Confirmed": "5220948",
-                "Deaths": "68449",
-                "Incident_Rate": "26838.00667651542",
-                "Total_Test_Results": "108062148.0"
+                "Confirmed": "5333813",
+                "Deaths": "68720",
+                "Incident_Rate": "27418.18323133744",
+                "Total_Test_Results": "109673871.0"
             }
         },
         {
@@ -712,13 +712,13 @@
             },
             "properties": {
                 "Province_State": "North Carolina",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "35.6301",
                 "Long": "-79.8064",
-                "Confirmed": "2673326",
-                "Deaths": "24577",
-                "Incident_Rate": "25489.174190443173",
-                "Total_Test_Results": "23293144.0"
+                "Confirmed": "2715798",
+                "Deaths": "24627",
+                "Incident_Rate": "25894.128994390205",
+                "Total_Test_Results": "23408094.0"
             }
         },
         {
@@ -732,12 +732,12 @@
             },
             "properties": {
                 "Province_State": "North Dakota",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "47.5289",
                 "Long": "-99.784",
-                "Confirmed": "241739",
-                "Deaths": "2268",
-                "Incident_Rate": "31721.69718474349",
+                "Confirmed": "242893",
+                "Deaths": "2275",
+                "Incident_Rate": "31873.12843311961",
                 "Total_Test_Results": ""
             }
         },
@@ -752,12 +752,12 @@
             },
             "properties": {
                 "Province_State": "Northern Mariana Islands",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "15.0979",
                 "Long": "145.6739",
-                "Confirmed": "11281",
+                "Confirmed": "11315",
                 "Deaths": "34",
-                "Incident_Rate": "20457.34803423763",
+                "Incident_Rate": "20519.004787465547",
                 "Total_Test_Results": ""
             }
         },
@@ -772,12 +772,12 @@
             },
             "properties": {
                 "Province_State": "Ohio",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "40.3888",
                 "Long": "-82.7649",
-                "Confirmed": "2708071",
-                "Deaths": "38493",
-                "Incident_Rate": "23167.48937043913",
+                "Confirmed": "2724041",
+                "Deaths": "38550",
+                "Incident_Rate": "23304.112378198493",
                 "Total_Test_Results": ""
             }
         },
@@ -792,12 +792,12 @@
             },
             "properties": {
                 "Province_State": "Oklahoma",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "35.5653",
                 "Long": "-96.9289",
-                "Confirmed": "1042136",
-                "Deaths": "15940",
-                "Incident_Rate": "26336.71057988547",
+                "Confirmed": "1044868",
+                "Deaths": "15996",
+                "Incident_Rate": "26405.75328957428",
                 "Total_Test_Results": ""
             }
         },
@@ -812,13 +812,13 @@
             },
             "properties": {
                 "Province_State": "Oregon",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "44.572",
                 "Long": "-122.0709",
-                "Confirmed": "729412",
-                "Deaths": "7528",
-                "Incident_Rate": "17293.918516019374",
-                "Total_Test_Results": "11247028.0"
+                "Confirmed": "745723",
+                "Deaths": "7568",
+                "Incident_Rate": "17680.642486717403",
+                "Total_Test_Results": "11347637.0"
             }
         },
         {
@@ -832,13 +832,13 @@
             },
             "properties": {
                 "Province_State": "Pennsylvania",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "40.5908",
                 "Long": "-77.2098",
-                "Confirmed": "2829027",
-                "Deaths": "44733",
-                "Incident_Rate": "22098.339562703888",
-                "Total_Test_Results": "25454423.0"
+                "Confirmed": "2877660",
+                "Deaths": "44898",
+                "Incident_Rate": "22478.22584443714",
+                "Total_Test_Results": "25582810.0"
             }
         },
         {
@@ -852,13 +852,13 @@
             },
             "properties": {
                 "Province_State": "Puerto Rico",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "18.2208",
                 "Long": "-66.5901",
-                "Confirmed": "562863",
-                "Deaths": "4227",
-                "Incident_Rate": "17624.199438017542",
-                "Total_Test_Results": "4113315.0"
+                "Confirmed": "613801",
+                "Deaths": "4277",
+                "Incident_Rate": "19219.154997316586",
+                "Total_Test_Results": "4199675.0"
             }
         },
         {
@@ -872,13 +872,13 @@
             },
             "properties": {
                 "Province_State": "Rhode Island",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "41.6809",
                 "Long": "-71.5118",
-                "Confirmed": "375897",
-                "Deaths": "3544",
-                "Incident_Rate": "35483.37157965981",
-                "Total_Test_Results": "7828621.0"
+                "Confirmed": "385153",
+                "Deaths": "3561",
+                "Incident_Rate": "36357.10584021877",
+                "Total_Test_Results": "7916747.0"
             }
         },
         {
@@ -892,13 +892,13 @@
             },
             "properties": {
                 "Province_State": "South Carolina",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "33.8569",
                 "Long": "-80.945",
-                "Confirmed": "1474272",
-                "Deaths": "17767",
-                "Incident_Rate": "28633.79088448105",
-                "Total_Test_Results": "13124056.0"
+                "Confirmed": "1487728",
+                "Deaths": "17891",
+                "Incident_Rate": "28895.13769846218",
+                "Total_Test_Results": "13128338.0"
             }
         },
         {
@@ -912,13 +912,13 @@
             },
             "properties": {
                 "Province_State": "South Dakota",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "44.2998",
                 "Long": "-99.4388",
-                "Confirmed": "238185",
-                "Deaths": "2915",
-                "Incident_Rate": "26923.93340258789",
-                "Total_Test_Results": "1315034.0"
+                "Confirmed": "239110",
+                "Deaths": "2919",
+                "Incident_Rate": "27028.493464713523",
+                "Total_Test_Results": "1320059.0"
             }
         },
         {
@@ -932,13 +932,13 @@
             },
             "properties": {
                 "Province_State": "Tennessee",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "35.7478",
                 "Long": "-86.6923",
-                "Confirmed": "2031533",
-                "Deaths": "26206",
-                "Incident_Rate": "29747.85823292832",
-                "Total_Test_Results": "12933902.0"
+                "Confirmed": "2042775",
+                "Deaths": "26267",
+                "Incident_Rate": "29912.47550582252",
+                "Total_Test_Results": "12967860.0"
             }
         },
         {
@@ -952,13 +952,13 @@
             },
             "properties": {
                 "Province_State": "Texas",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "31.0545",
                 "Long": "-97.5635",
-                "Confirmed": "6844247",
-                "Deaths": "88161",
-                "Incident_Rate": "23604.2043350916",
-                "Total_Test_Results": "48525299.0"
+                "Confirmed": "6883580",
+                "Deaths": "88272",
+                "Incident_Rate": "23739.85463659476",
+                "Total_Test_Results": "48810628.0"
             }
         },
         {
@@ -972,13 +972,13 @@
             },
             "properties": {
                 "Province_State": "Utah",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "40.15",
                 "Long": "-111.8624",
-                "Confirmed": "935479",
-                "Deaths": "4760",
-                "Incident_Rate": "29179.390372550108",
-                "Total_Test_Results": "6034259.0"
+                "Confirmed": "938864",
+                "Deaths": "4761",
+                "Incident_Rate": "29284.975037102795",
+                "Total_Test_Results": "6079308.0"
             }
         },
         {
@@ -992,13 +992,13 @@
             },
             "properties": {
                 "Province_State": "Vermont",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "44.0459",
                 "Long": "-72.7107",
-                "Confirmed": "126099",
-                "Deaths": "642",
-                "Incident_Rate": "20208.52931702321",
-                "Total_Test_Results": "3595221.0"
+                "Confirmed": "129854",
+                "Deaths": "654",
+                "Incident_Rate": "20810.30274572148",
+                "Total_Test_Results": "3634483.0"
             }
         },
         {
@@ -1012,13 +1012,13 @@
             },
             "properties": {
                 "Province_State": "Virgin Islands",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "18.3358",
                 "Long": "-64.8963",
-                "Confirmed": "17167",
+                "Confirmed": "18551",
                 "Deaths": "113",
-                "Incident_Rate": "16003.840847223775",
-                "Total_Test_Results": "380132.0"
+                "Incident_Rate": "17294.067196181528",
+                "Total_Test_Results": "401494.0"
             }
         },
         {
@@ -1032,13 +1032,13 @@
             },
             "properties": {
                 "Province_State": "Virginia",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "37.7693",
                 "Long": "-78.17",
-                "Confirmed": "1715478",
-                "Deaths": "20280",
-                "Incident_Rate": "20098.11002705284",
-                "Total_Test_Results": "13517328.0"
+                "Confirmed": "1747607",
+                "Deaths": "20328",
+                "Incident_Rate": "20474.52533349173",
+                "Total_Test_Results": "13662090.0"
             }
         },
         {
@@ -1052,12 +1052,12 @@
             },
             "properties": {
                 "Province_State": "Washington",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "47.4009",
                 "Long": "-121.4905",
-                "Confirmed": "1508065",
-                "Deaths": "12716",
-                "Incident_Rate": "19804.152205421666",
+                "Confirmed": "1544119",
+                "Deaths": "12833",
+                "Incident_Rate": "20277.61913397864",
                 "Total_Test_Results": ""
             }
         },
@@ -1072,13 +1072,13 @@
             },
             "properties": {
                 "Province_State": "West Virginia",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "38.4912",
                 "Long": "-80.9545",
-                "Confirmed": "502930",
-                "Deaths": "6880",
-                "Incident_Rate": "28062.98813657585",
-                "Total_Test_Results": "6174313.0"
+                "Confirmed": "507678",
+                "Deaths": "6905",
+                "Incident_Rate": "28327.92176088234",
+                "Total_Test_Results": "6229580.0"
             }
         },
         {
@@ -1092,12 +1092,12 @@
             },
             "properties": {
                 "Province_State": "Wisconsin",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "44.2685",
                 "Long": "-89.6165",
-                "Confirmed": "1623087",
-                "Deaths": "14464",
-                "Incident_Rate": "27876.43449457736",
+                "Confirmed": "1649615",
+                "Deaths": "14514",
+                "Incident_Rate": "28332.05150972944",
                 "Total_Test_Results": ""
             }
         },
@@ -1112,13 +1112,13 @@
             },
             "properties": {
                 "Province_State": "Wyoming",
-                "Last_Update": "2022-05-07 04:32:17",
+                "Last_Update": "2022-05-19 04:31:27",
                 "Lat": "42.756",
                 "Long": "-107.3025",
-                "Confirmed": "156745",
-                "Deaths": "1814",
-                "Incident_Rate": "27082.94817013645",
-                "Total_Test_Results": "1408245.0"
+                "Confirmed": "157409",
+                "Deaths": "1820",
+                "Incident_Rate": "27197.67640762389",
+                "Total_Test_Results": "1417474.0"
             }
         }
     ]
