@@ -4,6 +4,8 @@ import json
 
 def conv_to_float():
     
+    print('Converting all number strings into integers & floats.')
+    
     file = 'geocovdata.json'
     
     with open(file) as f:
@@ -12,6 +14,7 @@ def conv_to_float():
         for feature in json_data['features']:
             coordinates = feature['geometry']['coordinates']
             feature['geometry']['coordinates'] = [float(coord) for coord in coordinates]
+    
     with open(file, 'w') as f:
         json.dump(json_data, f, indent=4)
 
