@@ -192,9 +192,6 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Project Link: [https://github.com/kev-the-python-dev/COVID-19_Data_Map/](https://github.com/kev-the-python-dev/COVID-19_Data_Map/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
