@@ -79,8 +79,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-<img src='https://raw.githubusercontent.com/kev-the-python-dev/COVID-19_Data_Map/main/map_marker_data_view.png'>
+<p> Coming Soon </p>
+<!-- img src='https://raw.githubusercontent.com/kev-the-python-dev/COVID-19_Data_Map/main/map_marker_data_view.png' -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -94,13 +94,7 @@
 * [Leaflet](https://leafletjs.com/)
 * [MapBox](https://www.mapbox.com/)
 * [SQLite3](https://sqlite.org/index.html)
-* [SpatialLite](https://www.gaia-gis.it/fossil/libspatialite/index)
-* [PROJ](https://proj.org/)
-* [GEOS](https://trac.osgeo.org/geos/)
-* [GDAL](https://gdal.org/)
 <br>
-
-Personally, I used Fedora 35 as my distro and thus some of the required libraries _required_ a different process to get GeoDjango, Spatialite, PROJ, GEOS, and GDAL implemented correctly. I'll drop the sources here once compiled in an organized fashion. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -115,13 +109,14 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 Before **pip** you must have the following Django supported Geospatial libraries installed:
+
 * [GEOS](https://docs.djangoproject.com/en/4.0/ref/contrib/gis/geos/)
 * [PROJ](https://proj.org/install.html)
 * [GDAL](https://docs.djangoproject.com/en/4.0/ref/contrib/gis/gdal/)
 
 Instructions to install --> https://docs.djangoproject.com/en/4.0/ref/contrib/gis/install/geolibs/
 
-Once the 3 above libraries are installed you can move onto installing * [SpatialLite](https://docs.djangoproject.com/en/4.0/ref/contrib/gis/install/spatialite/)
+Once the above libraries are installed you can move onto installing * [SpatialLite](https://docs.djangoproject.com/en/4.0/ref/contrib/gis/install/spatialite/)
 
 
 This is an example of how to list things you need to use the software and how to install them.
@@ -157,7 +152,7 @@ Once you have installed the required GeoSpatial libraries to your system/server 
 ## Usage
 
 1. Edit _/template/map.html_ and add your mapbox API key.
-2. Run the csv-dl.py
+2. Run the download_data.py
 3. Initialize your Django web server
 4. Visit _127.0.0.1:8000/markers/map_ and enjoy the data!
 
