@@ -1,0 +1,223 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>COVID-19 Interactive Data Map (Updated Daily Data)</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+  <!-- Favicons -->
+  <link href="/static/assets/img/favicon.png" rel="icon">
+  <link href="/static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="/static/assets/css/style.css" rel="stylesheet">
+
+  <!-- Additional Scripts for Map Render-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
+  
+  <!-- Load Esri Leaflet from CDN -->
+  <script src="https://unpkg.com/esri-leaflet@3.0.8/dist/esri-leaflet.js"
+  integrity="sha512-E0DKVahIg0p1UHR2Kf9NX7x7TUewJb30mxkxEm2qOYTVJObgsAGpEol9F6iK6oefCbkJiA4/i6fnTHzM6H1kEA=="
+  crossorigin=""></script>
+
+    <!-- Load Esri Leaflet Geocoder from CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/esri-leaflet-geocoder@3.1.3/dist/esri-leaflet-geocoder.css"
+  integrity="sha512-IM3Hs+feyi40yZhDH6kV8vQMg4Fh20s9OzInIIAc4nx7aMYMfo+IenRUekoYsHZqGkREUgx0VvlEsgm7nCDW9g=="
+  crossorigin="">
+
+  <script src="https://unpkg.com/esri-leaflet-geocoder@3.1.3/dist/esri-leaflet-geocoder.js"
+  integrity="sha512-mwRt9Y/qhSlNH3VWCNNHrCwquLLU+dTbmMxVud/GcnbXfOKJ35sznUmt3yM39cMlHR2sHbV9ymIpIMDpKg4kKw=="
+  crossorigin=""></script>
+
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="/static/assets/img/logo.png" alt="" class="img-fluid">
+        <h1 class="text-light"><a href="index.html">Select a State<br>(Not working yet)</a></h1>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#" class="nav-link scrollto active" id="marker_1"><i class="bx bx-home"></i> <span>Alabama</span></a></li>
+          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Alaska</span></a></li>
+          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Arizona</span></a></li>
+          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Arkansas</span></a></li>
+          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>California</span></a></li>
+          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Colorado</span></a></li>
+          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Connecticut</span></a></li>
+          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Delaware</span></a></li>
+          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Florida</span></a></li>
+          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Georgia</span></a></li>
+          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Hawaii</span></a></li>
+          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Idaho</span></a></li>
+          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Illinois</span></a></li>
+          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Indiana</span></a></li>
+          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Kansas</span></a></li>
+          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Kentucky</span></a></li>
+          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Louisiana</span></a></li>
+          <li><a href="#" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Maine</span></a></li>
+
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Maryland</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Massachusetts</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Michigan</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Minnesota</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Mississippi</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Missouri</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Montana</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Nebraska</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Nevada</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>New Hampshire</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>New Jersey</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>New Mexico</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>New York</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>North Carolina</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>North Dakota</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Ohio</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Oklahoma</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Oregon</span></a></li>
+
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Pennsylvania</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Rhode Island</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>South Carolina</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>South Dakota</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Tennessee</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Texas</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Utah</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Vermont</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Virginia</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Washington</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>West Virginia</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Wisconsin</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Wyoming</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container" style="text-align: center;">
+          <h2>COVID-19 Data (Per State Basis)</h2>
+      </div>
+
+      </div>
+    </section>
+    <!-- End Breadcrumbs -->
+
+    <!-- Mapbox Integration-->
+    <section class="inner-page">
+      <div class="container">
+        <div id="mapid" style='height: 500px;'></div>
+        <script>
+          let mymap = L.map('mapid').setView([39.828175, -98.5795], 4);
+          let max_bounds = [
+                [5.499550, -167.27643], // Southwest Boundary
+                [83.162102, -52.233040] // Northeast Boundary
+              ];
+
+          L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+              attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+              maxZoom: 10,
+              id: 'mapbox/dark-v10',
+              tileSize: 512,
+              zoomOffset: -1,
+              accessToken: 'pk.eyJ1Ijoia2luZ2NvYnJhcHkiLCJhIjoiY2wxbjJxaHFwMHFtdjNvczl4cGFrOG5wZyJ9.5_vEZGOelHpCAdPEICYe0Q'
+              }).addTo(mymap);
+              
+          let geo_cov = $.getJSON('../../static/geocovdata.json', function(response) {
+              console.log("response", response);
+              let geojsonLayer = new L.GeoJSON(response, {
+                onEachFeature: onEachFeat });
+              geojsonLayer.addTo(mymap);    
+          });
+
+             
+        // Search functionality
+          let controlSearch = L.esri.Geocoding.geosearch({
+            providers: [
+              L.esri.Geocoding.arcgisOnlineProvider({
+            
+            // API Key to be passed to the ArcGIS Online Geocoding Service
+              apikey:'AAPK5d0cbf74aea142d6aae00742be552ad8gq7S-gPIXWuwCWBM50P7e_fAw5TC6h6PtfhbkZJ_JSnB-ytjyM6sjbNEmjV_oDON'
+              })
+            ]           
+          }).addTo(mymap);
+
+        
+        // Necessary for clicking on markers. Without this code, markers mean absolutely nothing. 
+        function onEachFeat(feature, layer){
+                let out = [];
+          if (feature.properties) {
+            for(key in feature.properties){
+              out.push(key+": "+feature.properties[key]);
+            }
+            layer.bindPopup(out.join("<br />"));
+          }
+        }
+
+        </script>
+      </div>
+    </section>
+    <!-- End Mapbox Integration-->
+
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>KevinDouglas.dev</span></strong>
+      </div>
+    </div>
+  </footer>
+  <!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="/static/assets/vendor/purecounter/purecounter.js"></script>
+  <script src="/static/assets/vendor/aos/aos.js"></script>
+  <script src="/static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/static/assets/vendor/typed.js/typed.min.js"></script>
+  <script src="/static/assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="/static/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/static/assets/js/main.js"></script>
+
+</body>
+
+</html>

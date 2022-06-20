@@ -6,5 +6,5 @@ def index(request):
     context = {
             'MAPBOX_TOKEN':MAPBOX_TOKEN
             }
-    return render(request, 'map.html', context)
+    return render(request, 'inner-page.html', context)
 
