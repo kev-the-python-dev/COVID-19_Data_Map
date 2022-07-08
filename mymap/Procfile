@@ -1,0 +1,1 @@
+web: gunicorn mymap.wsgi:application --log-file -

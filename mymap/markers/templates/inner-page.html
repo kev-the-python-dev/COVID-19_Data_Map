@@ -19,7 +19,7 @@
   <!-- Vendor CSS Files -->
   <link href="/static/assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="/static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/static/asssets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="/static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="/static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="/static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
@@ -73,9 +73,9 @@
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <section class="breadcrumbs">
+    <section class="breadcrumbs" style="background-color:#0e0e0e;">
       <div class="container" style="text-align: center;">
-          <h2>COVID-19 Data (Per State Basis)</h2>
+          <h2 style="color: white; font-weight: 700;">COVID-19 Data (Per State Basis)</h2>
       </div>
 
       </div>
@@ -127,9 +127,9 @@
               		<b>State:</b> ${features.properties.Province_State} <br>
                   <b>Last Update:</b> ${features.properties.Last_Update} <br>
                   <b>Confirmed Cases:</b> ${features.properties.Confirmed} <br>
-                  <b>Deaths:</b>${features.properties.Deaths} <br>
-                  <b>Total Test</b> ${features.properties.Confirmed}<br>
-                  <b>Incident Rate</b>${features.properties.Incident_Rate}`, {
+                  <b>Deaths:</b> ${features.properties.Deaths} <br>
+                  <b>Total Test:</b> ${features.properties.Confirmed}<br>
+                  <b>Incident Rate:</b> ${features.properties.Incident_Rate}`, {
               closeButton: true,
               offset: L.point(0, -20)
             });

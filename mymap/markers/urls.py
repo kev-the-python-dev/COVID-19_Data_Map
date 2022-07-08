@@ -1,7 +1,7 @@
+from django.http import HttpResponse, HttpResponseRedirect
 from django.urls import path
-from markers import views
-app_name = "markers"
+from . import views
 
 urlpatterns = [
-        path('map/',view=views.index, name='map'),
+        path('', views.index, name='index'),
         ]
